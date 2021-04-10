@@ -9,32 +9,53 @@
 
 library(shiny)
 
+tweaks <- 
+    list(tags$head(tags$style(HTML("
+                                 .multicol { 
+                                   height: 150px;
+                                   -webkit-column-count: 5; /* Chrome, Safari, Opera */ 
+                                   -moz-column-count: 5;    /* Firefox */ 
+                                   column-count: 5; 
+                                   -moz-column-fill: auto;
+                                   -column-fill: auto;
+                                 } 
+                                 ")) 
+    ))
+
+provinceControls <- 
+    list(tags$div(align = 'left', 
+                  class = 'multicol', 
+                  checkboxGroupInput(inputId = "province",
+                       label = "Select a province",
+                       choices = sort(c("Alberta",
+                                        "British Columbia",
+                                        "Canada",
+                                        "Manitoba",
+                                        "New Brunswick",
+                                        "Newfoundland and Labrador",
+                                        "Nova Scotia",
+                                        "Ontario",
+                                        "Prince Edward Island",
+                                        "Quebec",
+                                        "Saskatchewan")),
+                       selected = "Canada")))
+
+
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
+    tweaks,
 
     # Application title
     titlePanel("The Importance of Having A Primary Healthcare Provider"),
 
     # Sidebar with a slider input for number of bins
-    sidebarLayout(
-        checkboxGroupInput(inputId = "province",
-                    label = "Select a province",
-                    choices = sort(c("Canada",
-                                "Alberta",
-                                "British Columbia",
-                                "Saskatchewan",
-                                "Manitoba",
-                                "Ontario",
-                                "Quebec",
-                                "Nova Scotia",
-                                "Prince Edward Island",
-                                "New Brunswick",
-                                "Newfoundland and Labrador")),
-                    selected = "Canada"),
-        
+    fluidRow(
+        column(width = 4, provinceControls),
         # Show a plot of the generated distribution
         mainPanel(
-            plotOutput("provincesPlot")
+            fluidRow(
+                plotOutput("provincesPlot")
+            )
         )
     ),
     #sidebarLayout(

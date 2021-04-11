@@ -1,0 +1,86 @@
+---
+title: "sta313 final"
+author: "Prianka Rai 1005174357"
+date: "06/04/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(tidyr)
+library(tidyverse)
+library(stringr)
+```
+
+
+
+```{r}
+data_reasons <- data.frame(Region = c("Newfoundland and Labrador", "Prince Edward Island", "Nova Scotia", "New Brunswick", "Quebec", "Ontario", "Manitoba", "Saskatchewan", "Alberta", "British Columbia", "Canada"), not_need_PHC = c(47.4, 38.4, 23.9,	31.4, 44.6, 46.8, 61.7, 67.8, 65.9,46.8, 47.47), no_PMH_area = c(40.0,38.4, 45.8, 43.9, 34.8, 24.1, 12.7, 12.3, 12.7, 36.5, 30.12), left_retired = c(30.2, 25.7,41.3, 25.3, 23.2, 25.4,24.5, 26.4, 18.2, 19.6, 25.99), other = c(5.8, 12.8, 15.5,15.2, 16.2, 22.0, 19.8, 16.7, 18.9,14.1, 15.7))
+
+names(data_reasons)[1] <- "Region"
+names(data_reasons)[2] <- "Did not need PHC or have not tried to find one"
+names(data_reasons)[3] <- "No PHC available or taking new patients"
+names(data_reasons)[4] <- "Had PHC who left or retired"
+names(data_reasons)[5] <- "Other reason"
+
+```
+
+
+
+
+x = the region 
+function takes row and puts value into chart
+
+
+```{r}
+
+
+four_quadrant <- function(x, col_quad="gray65", col_text="white") {    
+  row <- data_reasons %>%
+  filter(str_detect(Region, x))
+  x1 <- row %>%
+  select(`Did not need PHC or have not tried to find one`)
+  x2 <- row %>%
+  select('No PHC available or taking new patients')
+  x3 <- row %>%
+  select('Had PHC who left or retired')
+  x4 <- row %>%
+  select('Other reason')
+  nx <- 4
+  list = c(as.numeric(x1), as.numeric(x2), as.numeric(x3), as.numeric(x4))
+  sqx <- sqrt(list) 
+  df <- data.frame(x=c(sqx[1],-sqx[2],-sqx[3],sqx[4])/2, 
+                   y=c(sqx[1],sqx[2],-sqx[3],-sqx[4])/2, 
+                   size=sqx, label=x)
+  mm <- max(df$size)*1.1
+
+  ggplot(data=df, aes(x=x, y=y, width=size, height=size, 
+            group=factor(size))) +
+    geom_tile(fill=col_quad) +
+    geom_text(mapping = aes(label = paste(list, "%")), colour = "white", position = position_stack(vjust = 0.5)) +
+    labs(titles = x) +
+    annotate("text", label = "Did not need PHC \nor have not tried to \nfind one", x = sqx[1]-3.5, y = sqx[1]-2, colour = "white") +
+    annotate("text", label = 'No PHC \navailable', x = -sqx[2]+2.5, y = sqx[2]-1, colour = "white") +
+    annotate("text", label = 'Had PHC who \nleft or retired', x = -sqx[3] + 2.5, y = -sqx[3] +1.5, colour = "white") +
+    annotate("text", label = 'Other \nreason', x = sqx[4] - 1.5, y = -sqx[4] + 0.7, size = 3, colour = "white") +
+    geom_hline(aes(yintercept=0), size=0.8) +
+    geom_vline(aes(xintercept=0), size=0.8) +
+    coord_fixed() +
+    xlim(c(-mm,mm)) + ylim(c(-mm,mm)) +
+    theme_void() +
+    theme(legend.position = "none")
+}
+
+x <- "Prince Edward Island"
+p1 <- four_quadrant(x)
+p1
+
+x <- "Newfoundland and Labrador"
+p2 <- four_quadrant(x, col_quad="salmon")
+
+gridExtra::grid.arrange(p1, p2, nrow=1)
+```
+
+
+

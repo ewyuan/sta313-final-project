@@ -1,0 +1,342 @@
+---
+title: "sta313 final project"
+output: pdf_document
+---
+
+```{r health vis, echo = FALSE}
+
+library(ggplot2)
+devtools::install_github("ricardo-bion/ggradar",dependencies=TRUE)
+library(ggradar)
+library(scales)
+library(dplyr)
+
+setwd("/home/jovyan/sta313 final project")
+
+health_improvement_data <- read.csv(file = 'health_improvements_data (1).csv')
+
+
+# alberta health data
+alberta_health_data <- c()
+alberta_health_data <- rbind(alberta_health_data, health_improvement_data[1:2, ])
+alberta_health_data <- alberta_health_data[-c(1, 9)]
+
+# alberta health vis  
+alberta_health_vis <- alberta_health_data %>% as_tibble(rownames = "has_pchp") %>% tail(2) %>% select(2:7)
+
+ggradar(alberta_health_vis, plot.title = "Alberta", legend.title = "PCHP status", axis.labels = c("Exercise", "Lose weight", "Changing diet", "Reduce smoking", "Reduce stress")) 
+
+# british columbia data
+bc_health_data <- c()
+bc_health_data <- rbind(bc_health_data, health_improvement_data[3:4, ])
+bc_health_data <- bc_health_data[-c(1, 9)]
+
+# bc health vis  
+bc_health_vis <- bc_health_data %>% 
+  as_tibble(rownames = "has_pchp") %>% 
+  tail(2) %>% 
+  select(2:7)
+
+ggradar(bc_health_vis, plot.title = "British Columbia", legend.title = "PCHP status", axis.labels = c("Exercise", "Lose weight", "Changing diet", "Reduce smoking", "Reduce stress"), values.radar = c("0%", "50%", "83%"), grid.max = 0.83)
+
+# Manitoba data
+manitoba_health_data <- c()
+manitoba_health_data <- rbind(manitoba_health_data, health_improvement_data[5:6, ])
+manitoba_health_data <- manitoba_health_data[-c(1, 9)]
+
+# manitoba health vis  
+manitoba_health_vis <- manitoba_health_data %>% 
+  as_tibble(rownames = "has_pchp") %>% 
+  tail(2) %>% 
+  select(2:7)
+
+ggradar(manitoba_health_vis, plot.title = "Manitoba", legend.title = "PCHP status", axis.labels = c("Exercise", "Lose weight", "Changing diet", "Reduce smoking", "Reduce stress"))
+
+# New Brunswick data
+new_brunswick_health_data <- c()
+new_brunswick_health_data <- rbind(new_brunswick_health_data, health_improvement_data[7:8, ])
+new_brunswick_health_data <- new_brunswick_health_data[-c(1, 9)]
+
+# New Brunswick health vis  
+new_brunswick_health_vis <- new_brunswick_health_data %>% 
+  as_tibble(rownames = "has_pchp") %>% 
+  tail(2) %>% 
+  select(2:7)
+
+ggradar(new_brunswick_health_vis, plot.title = "New Brunswick", legend.title = "PCHP status", axis.labels = c("Exercise", "Lose weight", "Changing diet", "Reduce smoking", "Reduce stress"))
+
+# New Foundland and Labrador data
+nfl_health_data <- c()
+nfl_health_data <- rbind(nfl_health_data, health_improvement_data[9:10, ])
+nfl_health_data <- nfl_health_data[-c(1, 9)]
+
+# New Foundland and Labrador health vis  
+nfl_health_vis <- nfl_health_data %>% 
+  as_tibble(rownames = "has_pchp") %>% 
+  tail(2) %>% 
+  select(2:7)
+
+ggradar(nfl_health_vis, plot.title = "New Foundland and Labrador", legend.title = "PCHP status", axis.labels = c("Exercise", "Lose weight", "Changing diet", "Reduce smoking", "Reduce stress"))
+
+# Northern Canada data
+north_can_health_data <- c()
+north_can_health_data <- rbind(north_can_health_data, health_improvement_data[11:12, ])
+north_can_health_data <- north_can_health_data[-c(1, 9)]
+
+# Northern Canada health vis  
+north_can_health_vis <- north_can_health_data %>% 
+  as_tibble(rownames = "has_pchp") %>% 
+  tail(2) %>% 
+  select(2:7)
+
+ggradar(north_can_health_vis, plot.title = "Northern Canada", legend.title = "PCHP status", axis.labels = c("Exercise", "Lose weight", "Changing diet", "Reduce smoking", "Reduce stress"))
+
+# Nova Scotia data
+nova_scotia_health_data <- c()
+nova_scotia_health_data <- rbind(nova_scotia_health_data, health_improvement_data[13:14, ])
+nova_scotia_health_data <- nova_scotia_health_data[-c(1, 9)]
+
+# Nova Scotia health vis  
+nova_scotia_health_vis <- nova_scotia_health_data %>% 
+  as_tibble(rownames = "has_pchp") %>% 
+  tail(2) %>% 
+  select(2:7)
+
+ggradar(nova_scotia_health_vis, plot.title = "Nova Scotia", legend.title = "PCHP status", axis.labels = c("Exercise", "Lose weight", "Changing diet", "Reduce smoking", "Reduce stress"))
+
+# Ontario data
+ontario_health_data <- c()
+ontario_health_data <- rbind(ontario_health_data, health_improvement_data[15:16, ])
+ontario_health_data <- ontario_health_data[-c(1, 9)]
+
+# Ontario health vis  
+ontario_health_vis <- ontario_health_data %>% 
+  as_tibble(rownames = "has_pchp") %>% 
+  tail(2) %>% 
+  select(2:7)
+
+ggradar(ontario_health_vis, plot.title = "Ontario", legend.title = "PCHP status", axis.labels = c("Exercise", "Lose weight", "Changing diet", "Reduce smoking", "Reduce stress"))
+
+# Prince Edward Island data
+pei_health_data <- c()
+pei_health_data <- rbind(pei_health_data, health_improvement_data[17:18, ])
+pei_health_data <- pei_health_data[-c(1, 9)]
+
+# Prince Edward Island health vis  
+pei_health_vis <- pei_health_data %>% 
+  as_tibble(rownames = "has_pchp") %>% 
+  tail(2) %>% 
+  select(2:7)
+
+ggradar(pei_health_vis, plot.title = "Prince Edward Island", legend.title = "PCHP status", axis.labels = c("Exercise", "Lose weight", "Changing diet", "Reduce smoking", "Reduce stress"))
+
+# Quebec data
+quebec_health_data <- c()
+quebec_health_data <- rbind(quebec_health_data, health_improvement_data[19:20, ])
+quebec_health_data <- quebec_health_data[-c(1, 9)]
+
+# Quebec health vis  
+quebec_health_vis <- quebec_health_data %>% 
+  as_tibble(rownames = "has_pchp") %>% 
+  tail(2) %>% 
+  select(2:7)
+
+ggradar(quebec_health_vis, plot.title = "Quebec", legend.title = "PCHP status", axis.labels = c("Exercise", "Lose weight", "Changing diet", "Reduce smoking", "Reduce stress"))
+
+# Saskatchewan data
+saskatchewan_health_data <- c()
+saskatchewan_health_data <- rbind(saskatchewan_health_data, health_improvement_data[21:22, ])
+saskatchewan_health_data <- saskatchewan_health_data[-c(1, 9)]
+
+# Saskatchewan health vis  
+saskatchewan_health_vis <- saskatchewan_health_data %>% 
+  as_tibble(rownames = "has_pchp") %>% 
+  tail(2) %>% 
+  select(2:7)
+
+ggradar(saskatchewan_health_vis, plot.title = "Saskatchewan", legend.title = "PCHP status", axis.labels = c("Exercise", "Lose weight", "Changing diet", "Reduce smoking", "Reduce stress"))
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r cancer_vis, echo=FALSE}
+#install.packages("reshape2")
+library(reshape2)
+
+screening_data <- read.csv(file = 'screening_data (1).csv')
+
+# Alberta cancer data
+alberta_cancer_data <- c()
+alberta_cancer_data <- rbind(alberta_cancer_data, screening_data[1:2, ])
+alberta_mammo <- c(alberta_cancer_data[1:2, 3])
+alberta_blood_test <- c(alberta_cancer_data[1:2, 4])
+alberta_has_pchp <- c(alberta_cancer_data[1:2, 2])
+
+alberta1 <- data.frame(alberta_mammo, alberta_blood_test, alberta_has_pchp)
+alberta2 <- melt(alberta1, id.vars = 'alberta_has_pchp')
+
+# Alberta cancer vis
+alberta_cancer_vis <- alberta2 %>% 
+                      ggplot(aes(x = alberta_has_pchp, y = value, fill = variable)) + geom_bar(stat='identity', position='dodge') + coord_flip() + theme(axis.ticks.y = element_blank(),axis.text.y = element_blank()) + ggtitle("Prostate cancer screening and Mammogram test") + labs(x = "With and Without PCHP", y = "% of people who took the test", fill = "Type of Test") + scale_fill_discrete(labels = c("Mammogram", "Prostrate"))
+
+alberta_cancer_vis
+
+# BC cancer data
+bc_cancer_data <- c()
+bc_cancer_data <- rbind(bc_cancer_data, screening_data[3:4, ])
+bc_mammo <- c(bc_cancer_data[1:2, 3])
+bc_blood_test <- c(bc_cancer_data[1:2, 4])
+bc_has_pchp <- c(bc_cancer_data[1:2, 2])
+
+bc1 <- data.frame(bc_mammo, bc_blood_test, bc_has_pchp)
+bc2 <- melt(bc1, id.vars = 'bc_has_pchp')
+
+# BC cancer vis
+bc_cancer_vis <- bc2 %>% ggplot(aes(x = bc_has_pchp, y = value, fill = variable)) + geom_bar(stat='identity', position='dodge') + coord_flip() + theme(axis.ticks.y = element_blank(),axis.text.y = element_blank()) + ggtitle("Prostate cancer screening and Mammogram test") + labs(x ="With and Without PCHP", y = "% of people who took the test", fill = "Type of Test") + scale_fill_discrete(labels = c("Mammogram", "Prostrate"))
+
+bc_cancer_vis
+
+# Manitoba cancer data
+manitoba_cancer_data <- c()
+manitoba_cancer_data <- rbind(manitoba_cancer_data, screening_data[5:6, ])
+manitoba_mammo <- c(manitoba_cancer_data[1:2, 3])
+manitoba_blood_test <- c(manitoba_cancer_data[1:2, 4])
+manitoba_has_pchp <- c(manitoba_cancer_data[1:2, 2])
+
+manitoba1 <- data.frame(manitoba_mammo, manitoba_blood_test, manitoba_has_pchp)
+manitoba2 <- melt(manitoba1, id.vars = 'manitoba_has_pchp')
+
+# Manitoba cancer vis
+manitoba_cancer_vis <- manitoba2 %>% ggplot(aes(x = manitoba_has_pchp, y = value, fill = variable)) + geom_bar(stat='identity', position='dodge') + coord_flip() + theme(axis.ticks.y = element_blank(),axis.text.y = element_blank()) + ggtitle("Prostate cancer screening and Mammogram test") + labs(x ="With and Without PCHP", y = "% of people who took the test", fill = "Type of Test") + scale_fill_discrete(labels = c("Mammogram", "Prostrate"))
+
+manitoba_cancer_vis
+
+
+# new_brunswick cancer data
+new_brunswick_cancer_data <- c()
+new_brunswick_cancer_data <- rbind(new_brunswick_cancer_data, screening_data[7:8, ])
+new_brunswick_mammo <- c(new_brunswick_cancer_data[1:2, 3])
+new_brunswick_blood_test <- c(new_brunswick_cancer_data[1:2, 4])
+new_brunswick_has_pchp <- c(new_brunswick_cancer_data[1:2, 2])
+
+new_brunswick1 <- data.frame(new_brunswick_mammo, new_brunswick_blood_test, new_brunswick_has_pchp)
+new_brunswick2 <- melt(new_brunswick1, id.vars = 'new_brunswick_has_pchp')
+
+# new_brunswick cancer vis
+new_brunswick_cancer_vis <- new_brunswick2 %>% ggplot(aes(x = new_brunswick_has_pchp, y = value, fill = variable)) + geom_bar(stat='identity', position='dodge') + coord_flip() + theme(axis.ticks.y = element_blank(),axis.text.y = element_blank()) + ggtitle("Prostate cancer screening and Mammogram test") + labs(x ="With and Without PCHP", y = "% of people who took the test", fill = "Type of Test") + scale_fill_discrete(labels = c("Mammogram", "Prostrate"))
+
+new_brunswick_cancer_vis
+
+# nfl cancer data
+nfl_cancer_data <- c()
+nfl_cancer_data <- rbind(nfl_cancer_data, screening_data[9:10, ])
+nfl_mammo <- c(nfl_cancer_data[1:2, 3])
+nfl_blood_test <- c(nfl_cancer_data[1:2, 4])
+nfl_has_pchp <- c(nfl_cancer_data[1:2, 2])
+
+nfl1 <- data.frame(nfl_mammo, nfl_blood_test, nfl_has_pchp)
+nfl2 <- melt(nfl1, id.vars = 'nfl_has_pchp')
+
+# nfl cancer vis
+nfl_cancer_vis <- nfl2 %>% ggplot(aes(x = nfl_has_pchp, y = value, fill = variable)) + geom_bar(stat='identity', position='dodge') + coord_flip() + theme(axis.ticks.y = element_blank(),axis.text.y = element_blank()) + ggtitle("Prostate cancer screening and Mammogram test") + labs(x ="With and Without PCHP", y = "% of people who took the test", fill = "Type of Test") + scale_fill_discrete(labels = c("Mammogram", "Prostrate"))
+
+nfl_cancer_vis
+
+# nc cancer data
+nc_cancer_data <- c()
+nc_cancer_data <- rbind(nc_cancer_data, screening_data[11:12, ])
+nc_mammo <- c(nc_cancer_data[1:2, 3])
+nc_blood_test <- c(nc_cancer_data[1:2, 4])
+nc_has_pchp <- c(nc_cancer_data[1:2, 2])
+
+nc1 <- data.frame(nc_mammo, nc_blood_test, nc_has_pchp)
+nc2 <- melt(nc1, id.vars = 'nc_has_pchp')
+
+# nc cancer vis
+nc_cancer_vis <- nc2 %>% ggplot(aes(x = nc_has_pchp, y = value, fill = variable)) + geom_bar(stat='identity', position='dodge') + coord_flip() + theme(axis.ticks.y = element_blank(),axis.text.y = element_blank()) + ggtitle("Prostate cancer screening and Mammogram test") + labs(x ="With and Without PCHP", y = "% of people who took the test", fill = "Type of Test") + scale_fill_discrete(labels = c("Mammogram", "Prostrate"))
+
+nc_cancer_vis
+
+# ns cancer data
+ns_cancer_data <- c()
+ns_cancer_data <- rbind(ns_cancer_data, screening_data[13:14, ])
+ns_mammo <- c(ns_cancer_data[1:2, 3])
+ns_blood_test <- c(ns_cancer_data[1:2, 4])
+ns_has_pchp <- c(ns_cancer_data[1:2, 2])
+
+ns1 <- data.frame(ns_mammo, ns_blood_test, ns_has_pchp)
+ns2 <- melt(ns1, id.vars = 'ns_has_pchp')
+
+# ns cancer vis
+ns_cancer_vis <- ns2 %>% ggplot(aes(x = ns_has_pchp, y = value, fill = variable)) + geom_bar(stat='identity', position='dodge') + coord_flip() + theme(axis.ticks.y = element_blank(),axis.text.y = element_blank()) + ggtitle("Prostate cancer screening and Mammogram test") + labs(x ="With and Without PCHP", y = "% of people who took the test", fill = "Type of Test") + scale_fill_discrete(labels = c("Mammogram", "Prostrate"))
+
+ns_cancer_vis
+
+# ontario cancer data
+ontario_cancer_data <- c()
+ontario_cancer_data <- rbind(ontario_cancer_data, screening_data[15:16, ])
+ontario_mammo <- c(ontario_cancer_data[1:2, 3])
+ontario_blood_test <- c(ontario_cancer_data[1:2, 4])
+ontario_has_pchp <- c(ontario_cancer_data[1:2, 2])
+
+ontario1 <- data.frame(ontario_mammo, ontario_blood_test, ontario_has_pchp)
+ontario2 <- melt(ontario1, id.vars = 'ontario_has_pchp')
+
+# ontario cancer vis
+ontario_cancer_vis <- ontario2 %>% ggplot(aes(x = ontario_has_pchp, y = value, fill = variable)) + geom_bar(stat='identity', position='dodge') + coord_flip() + theme(axis.ticks.y = element_blank(),axis.text.y = element_blank()) + ggtitle("Prostate cancer screening and Mammogram test") + labs(x ="With and Without PCHP", y = "% of people who took the test", fill = "Type of Test") + scale_fill_discrete(labels = c("Mammogram", "Prostrate"))
+
+ontario_cancer_vis
+
+
+# pei cancer data
+pei_cancer_data <- c()
+pei_cancer_data <- rbind(pei_cancer_data, screening_data[17:18, ])
+pei_mammo <- c(pei_cancer_data[1:2, 3])
+pei_blood_test <- c(pei_cancer_data[1:2, 4])
+pei_has_pchp <- c(pei_cancer_data[1:2, 2])
+
+pei1 <- data.frame(pei_mammo, pei_blood_test, pei_has_pchp)
+pei2 <- melt(pei1, id.vars = 'pei_has_pchp')
+
+# pei cancer vis
+pei_cancer_vis <- pei2 %>% ggplot(aes(x = pei_has_pchp, y = value, fill = variable)) + geom_bar(stat='identity', position='dodge') + coord_flip() + theme(axis.ticks.y = element_blank(),axis.text.y = element_blank()) + ggtitle("Prostate cancer screening and Mammogram test") + labs(x ="With and Without PCHP", y = "% of people who took the test", fill = "Type of Test") + scale_fill_discrete(labels = c("Mammogram", "Prostrate"))
+
+pei_cancer_vis
+
+# quebec cancer data
+quebec_cancer_data <- c()
+quebec_cancer_data <- rbind(quebec_cancer_data, screening_data[19:20, ])
+quebec_mammo <- c(quebec_cancer_data[1:2, 3])
+quebec_blood_test <- c(quebec_cancer_data[1:2, 4])
+quebec_has_pchp <- c(quebec_cancer_data[1:2, 2])
+
+quebec1 <- data.frame(quebec_mammo, quebec_blood_test, quebec_has_pchp)
+quebec2 <- melt(quebec1, id.vars = 'quebec_has_pchp')
+
+# quebec cancer vis
+quebec_cancer_vis <- quebec2 %>% ggplot(aes(x = quebec_has_pchp, y = value, fill = variable)) + geom_bar(stat='identity', position='dodge') + coord_flip() + theme(axis.ticks.y = element_blank(),axis.text.y = element_blank()) + ggtitle("Prostate cancer screening and Mammogram test") + labs(x ="With and Without PCHP", y = "% of people who took the test", fill = "Type of Test") + scale_fill_discrete(labels = c("Mammogram", "Prostrate"))
+
+quebec_cancer_vis
+
+# saskatchewan cancer data
+saskatchewan_cancer_data <- c()
+saskatchewan_cancer_data <- rbind(saskatchewan_cancer_data, screening_data[21:22, ])
+saskatchewan_mammo <- c(saskatchewan_cancer_data[1:2, 3])
+saskatchewan_blood_test <- c(saskatchewan_cancer_data[1:2, 4])
+saskatchewan_has_pchp <- c(saskatchewan_cancer_data[1:2, 2])
+
+saskatchewan1 <- data.frame(saskatchewan_mammo, saskatchewan_blood_test, saskatchewan_has_pchp)
+saskatchewan2 <- melt(saskatchewan1, id.vars = 'saskatchewan_has_pchp')
+
+# saskatchewan cancer vis
+saskatchewan_cancer_vis <- saskatchewan2 %>% ggplot(aes(x = saskatchewan_has_pchp, y = value, fill = variable)) + geom_bar(stat='identity', position='dodge') + coord_flip() + theme(axis.ticks.y = element_blank(),axis.text.y = element_blank()) + ggtitle("Prostate cancer screening and Mammogram test") + labs(x ="With and Without PCHP", y = "% of people who took the test", fill = "Type of Test") + scale_fill_discrete(labels = c("Mammogram", "Prostrate"))
+
+saskatchewan_cancer_vis
+
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

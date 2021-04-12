@@ -1,309 +1,309 @@
-"","province","age","sex","estimation"
-"1","Alberta","18 to 19 years","Female",0.171206301458727
-"2","Alberta","18 to 19 years","Male",0.284330428728708
-"3","Alberta","20 to 24 years","Female",0.204658729226368
-"4","Alberta","20 to 24 years","Male",0.329321381739078
-"5","Alberta","25 to 29 years","Female",0.214580371966366
-"6","Alberta","25 to 29 years","Male",0.344223139515984
-"7","Alberta","30 to 34 years","Female",0.163339695514079
-"8","Alberta","30 to 34 years","Male",0.275793176636008
-"9","Alberta","35 to 39 years","Female",0.136756347552008
-"10","Alberta","35 to 39 years","Male",0.236834074780944
-"11","Alberta","40 to 44 years","Female",0.11461240994322
-"12","Alberta","40 to 44 years","Male",0.202562098691033
-"13","Alberta","45 to 49 years","Female",0.11120012945228
-"14","Alberta","45 to 49 years","Male",0.197341929649845
-"15","Alberta","50 to 54 years","Female",0.0905341904983067
-"16","Alberta","50 to 54 years","Male",0.163075121012908
-"17","Alberta","55 to 59 years","Female",0.0778053992514893
-"18","Alberta","55 to 59 years","Male",0.139906796095634
-"19","Alberta","60 to 64 years","Female",0.0627920670374009
-"20","Alberta","60 to 64 years","Male",0.112884783648725
-"21","Alberta","65 to 69 years","Female",0.0522311677331327
-"22","Alberta","65 to 69 years","Male",0.0921221995900492
-"23","Alberta","70 to 74 years","Female",0.0441385375269227
-"24","Alberta","70 to 74 years","Male",0.079168517236083
-"25","Alberta","75 to 79 years","Female",0.0416338149837458
-"26","Alberta","75 to 79 years","Male",0.072770567640327
-"27","Alberta","80 years and over","Female",0.0375872875301038
-"28","Alberta","80 years and over","Male",0.0666230097074623
-"29","British Columbia","18 to 19 years","Female",0.21009294047544
-"30","British Columbia","18 to 19 years","Male",0.337538463518315
-"31","British Columbia","20 to 24 years","Female",0.247083495125601
-"32","British Columbia","20 to 24 years","Male",0.387525118575955
-"33","British Columbia","25 to 29 years","Female",0.259568819321662
-"34","British Columbia","25 to 29 years","Male",0.402836412841663
-"35","British Columbia","30 to 34 years","Female",0.197874209029387
-"36","British Columbia","30 to 34 years","Male",0.323418451016391
-"37","British Columbia","35 to 39 years","Female",0.167326216834418
-"38","British Columbia","35 to 39 years","Male",0.279820627683861
-"39","British Columbia","40 to 44 years","Female",0.14097945544378
-"40","British Columbia","40 to 44 years","Male",0.239415987062591
-"41","British Columbia","45 to 49 years","Female",0.137712305143158
-"42","British Columbia","45 to 49 years","Male",0.236165990660852
-"43","British Columbia","50 to 54 years","Female",0.112782652756808
-"44","British Columbia","50 to 54 years","Male",0.198333645205373
-"45","British Columbia","55 to 59 years","Female",0.0968206457091954
-"46","British Columbia","55 to 59 years","Male",0.170450306150528
-"47","British Columbia","60 to 64 years","Female",0.0780588234426005
-"48","British Columbia","60 to 64 years","Male",0.139931397652875
-"49","British Columbia","65 to 69 years","Female",0.0636940509894285
-"50","British Columbia","65 to 69 years","Male",0.113854009876536
-"51","British Columbia","70 to 74 years","Female",0.0539837638997281
-"52","British Columbia","70 to 74 years","Male",0.0953653696486015
-"53","British Columbia","75 to 79 years","Female",0.0489557554983344
-"54","British Columbia","75 to 79 years","Male",0.0865333016891465
-"55","British Columbia","80 years and over","Female",0.0449021104725394
-"56","British Columbia","80 years and over","Male",0.0801087445019342
-"57","Manitoba","18 to 19 years","Female",0.19516740280657
-"58","Manitoba","18 to 19 years","Male",0.318666198463575
-"59","Manitoba","20 to 24 years","Female",0.233598944559239
-"60","Manitoba","20 to 24 years","Male",0.369067814249153
-"61","Manitoba","25 to 29 years","Female",0.255261467672666
-"62","Manitoba","25 to 29 years","Male",0.394085440341701
-"63","Manitoba","30 to 34 years","Female",0.193388907219821
-"64","Manitoba","30 to 34 years","Male",0.316361061811477
-"65","Manitoba","35 to 39 years","Female",0.159247775947247
-"66","Manitoba","35 to 39 years","Male",0.274000244478266
-"67","Manitoba","40 to 44 years","Female",0.133846264048061
-"68","Manitoba","40 to 44 years","Male",0.232666488685835
-"69","Manitoba","45 to 49 years","Female",0.129873521918944
-"70","Manitoba","45 to 49 years","Male",0.222784103682809
-"71","Manitoba","50 to 54 years","Female",0.104144044083165
-"72","Manitoba","50 to 54 years","Male",0.189042931467696
-"73","Manitoba","55 to 59 years","Female",0.090381461821694
-"74","Manitoba","55 to 59 years","Male",0.162544775397614
-"75","Manitoba","60 to 64 years","Female",0.0742186013556284
-"76","Manitoba","60 to 64 years","Male",0.130015223934487
-"77","Manitoba","65 to 69 years","Female",0.0606561290037228
-"78","Manitoba","65 to 69 years","Male",0.106379802077731
-"79","Manitoba","70 to 74 years","Female",0.0518339297548417
-"80","Manitoba","70 to 74 years","Male",0.0935079776730245
-"81","Manitoba","75 to 79 years","Female",0.0497527529780329
-"82","Manitoba","75 to 79 years","Male",0.0850437585016193
-"83","Manitoba","80 years and over","Female",0.0442661695603567
-"84","Manitoba","80 years and over","Male",0.0769309035716683
-"85","New Brunswick","18 to 19 years","Female",0.0964545262183722
-"86","New Brunswick","18 to 19 years","Male",0.169829095389991
-"87","New Brunswick","20 to 24 years","Female",0.12284191895004
-"88","New Brunswick","20 to 24 years","Male",0.207425566309857
-"89","New Brunswick","25 to 29 years","Female",0.130108047004366
-"90","New Brunswick","25 to 29 years","Male",0.224205484054413
-"91","New Brunswick","30 to 34 years","Female",0.0945405614164596
-"92","New Brunswick","30 to 34 years","Male",0.166208393675587
-"93","New Brunswick","35 to 39 years","Female",0.0773654095298697
-"94","New Brunswick","35 to 39 years","Male",0.14022215948056
-"95","New Brunswick","40 to 44 years","Female",0.0624733718798948
-"96","New Brunswick","40 to 44 years","Male",0.117643934269508
-"97","New Brunswick","45 to 49 years","Female",0.0626864451576333
-"98","New Brunswick","45 to 49 years","Male",0.113628981591755
-"99","New Brunswick","50 to 54 years","Female",0.0502994472044767
-"100","New Brunswick","50 to 54 years","Male",0.0929852041431612
-"101","New Brunswick","55 to 59 years","Female",0.0440595992755849
-"102","New Brunswick","55 to 59 years","Male",0.0798356482965592
-"103","New Brunswick","60 to 64 years","Female",0.0350350443933572
-"104","New Brunswick","60 to 64 years","Male",0.0645466700310923
-"105","New Brunswick","65 to 69 years","Female",0.0288864590838685
-"106","New Brunswick","65 to 69 years","Male",0.052168862025298
-"107","New Brunswick","70 to 74 years","Female",0.025022187111896
-"108","New Brunswick","70 to 74 years","Male",0.0459511469917628
-"109","New Brunswick","75 to 79 years","Female",0.0227357535516938
-"110","New Brunswick","75 to 79 years","Male",0.0416311397610991
-"111","New Brunswick","80 years and over","Female",0.0199251475238297
-"112","New Brunswick","80 years and over","Male",0.0365394293942543
-"113","Newfoundland and Labrador","18 to 19 years","Female",0.198788990588982
-"114","Newfoundland and Labrador","18 to 19 years","Male",0.326879070333611
-"115","Newfoundland and Labrador","20 to 24 years","Female",0.247658373822701
-"116","Newfoundland and Labrador","20 to 24 years","Male",0.375856575166695
-"117","Newfoundland and Labrador","25 to 29 years","Female",0.254059596444112
-"118","Newfoundland and Labrador","25 to 29 years","Male",0.401069200329017
-"119","Newfoundland and Labrador","30 to 34 years","Female",0.198298089227406
-"120","Newfoundland and Labrador","30 to 34 years","Male",0.317100528958071
-"121","Newfoundland and Labrador","35 to 39 years","Female",0.164255695795417
-"122","Newfoundland and Labrador","35 to 39 years","Male",0.271765079318001
-"123","Newfoundland and Labrador","40 to 44 years","Female",0.13906255081682
-"124","Newfoundland and Labrador","40 to 44 years","Male",0.236740150718657
-"125","Newfoundland and Labrador","45 to 49 years","Female",0.134623676280326
-"126","Newfoundland and Labrador","45 to 49 years","Male",0.233498977209175
-"127","Newfoundland and Labrador","50 to 54 years","Female",0.112189189238581
-"128","Newfoundland and Labrador","50 to 54 years","Male",0.196267945114129
-"129","Newfoundland and Labrador","55 to 59 years","Female",0.0975437224361802
-"130","Newfoundland and Labrador","55 to 59 years","Male",0.170969099558344
-"131","Newfoundland and Labrador","60 to 64 years","Female",0.0811595743259287
-"132","Newfoundland and Labrador","60 to 64 years","Male",0.142519397324607
-"133","Newfoundland and Labrador","65 to 69 years","Female",0.0685268554421374
-"134","Newfoundland and Labrador","65 to 69 years","Male",0.123048422331783
-"135","Newfoundland and Labrador","70 to 74 years","Female",0.0614020795056381
-"136","Newfoundland and Labrador","70 to 74 years","Male",0.106943508092933
-"137","Newfoundland and Labrador","75 to 79 years","Female",0.0560231852442397
-"138","Newfoundland and Labrador","75 to 79 years","Male",0.100285146431245
-"139","Newfoundland and Labrador","80 years and over","Female",0.0481779267167905
-"140","Newfoundland and Labrador","80 years and over","Male",0.0865290037279869
-"141","Northern Canada","18 to 19 years","Female",0.566142077832555
-"142","Northern Canada","18 to 19 years","Male",0.722052005100464
-"143","Northern Canada","20 to 24 years","Female",0.615979726594852
-"144","Northern Canada","20 to 24 years","Male",0.749499616756273
-"145","Northern Canada","25 to 29 years","Female",0.627638031173851
-"146","Northern Canada","25 to 29 years","Male",0.764397583538324
-"147","Northern Canada","30 to 34 years","Female",0.561982041171744
-"148","Northern Canada","30 to 34 years","Male",0.704562187098808
-"149","Northern Canada","35 to 39 years","Female",0.486233589011751
-"150","Northern Canada","35 to 39 years","Male",0.652164301311121
-"151","Northern Canada","40 to 44 years","Female",0.440138190086848
-"152","Northern Canada","40 to 44 years","Male",0.609449635453947
-"153","Northern Canada","45 to 49 years","Female",0.434096481610214
-"154","Northern Canada","45 to 49 years","Male",0.602631462239626
-"155","Northern Canada","50 to 54 years","Female",0.372678837713577
-"156","Northern Canada","50 to 54 years","Male",0.541452847620899
-"157","Northern Canada","55 to 59 years","Female",0.339554354576654
-"158","Northern Canada","55 to 59 years","Male",0.512803511033808
-"159","Northern Canada","60 to 64 years","Female",0.282772097170951
-"160","Northern Canada","60 to 64 years","Male",0.43346612939789
-"161","Northern Canada","65 to 69 years","Female",0.240108894578806
-"162","Northern Canada","65 to 69 years","Male",0.37067426942432
-"163","Northern Canada","70 to 74 years","Female",0.235790876165576
-"164","Northern Canada","70 to 74 years","Male",0.34426656758955
-"165","Northern Canada","75 to 79 years","Female",0.215014520201909
-"166","Northern Canada","75 to 79 years","Male",0.345797735623062
-"167","Northern Canada","80 years and over","Female",0.168580053745107
-"168","Northern Canada","80 years and over","Male",0.289875555282509
-"169","Nova Scotia","18 to 19 years","Female",0.149728052686865
-"170","Nova Scotia","18 to 19 years","Male",0.264572030077829
-"171","Nova Scotia","20 to 24 years","Female",0.190145996985141
-"172","Nova Scotia","20 to 24 years","Male",0.308720711263507
-"173","Nova Scotia","25 to 29 years","Female",0.202686122590042
-"174","Nova Scotia","25 to 29 years","Male",0.32501761456991
-"175","Nova Scotia","30 to 34 years","Female",0.1514834027233
-"176","Nova Scotia","30 to 34 years","Male",0.254342513689105
-"177","Nova Scotia","35 to 39 years","Female",0.123898930348703
-"178","Nova Scotia","35 to 39 years","Male",0.213721791279022
-"179","Nova Scotia","40 to 44 years","Female",0.104115599745755
-"180","Nova Scotia","40 to 44 years","Male",0.18166885436923
-"181","Nova Scotia","45 to 49 years","Female",0.100030101504644
-"182","Nova Scotia","45 to 49 years","Male",0.17697216851888
-"183","Nova Scotia","50 to 54 years","Female",0.0806489475967703
-"184","Nova Scotia","50 to 54 years","Male",0.147436451298039
-"185","Nova Scotia","55 to 59 years","Female",0.070350736865202
-"186","Nova Scotia","55 to 59 years","Male",0.127901889999218
-"187","Nova Scotia","60 to 64 years","Female",0.0579646873022824
-"188","Nova Scotia","60 to 64 years","Male",0.103369019035032
-"189","Nova Scotia","65 to 69 years","Female",0.0468854121753572
-"190","Nova Scotia","65 to 69 years","Male",0.0835752678134529
-"191","Nova Scotia","70 to 74 years","Female",0.0402641758155162
-"192","Nova Scotia","70 to 74 years","Male",0.0721574349248443
-"193","Nova Scotia","75 to 79 years","Female",0.0371931640173217
-"194","Nova Scotia","75 to 79 years","Male",0.0657585740004268
-"195","Nova Scotia","80 years and over","Female",0.0330538487204217
-"196","Nova Scotia","80 years and over","Male",0.0592880720466132
-"197","Ontario","18 to 19 years","Female",0.111303051525934
-"198","Ontario","18 to 19 years","Male",0.198479328938931
-"199","Ontario","20 to 24 years","Female",0.135503827970657
-"200","Ontario","20 to 24 years","Male",0.232500972064829
-"201","Ontario","25 to 29 years","Female",0.144363884968232
-"202","Ontario","25 to 29 years","Male",0.246999769486409
-"203","Ontario","30 to 34 years","Female",0.108753310464722
-"204","Ontario","30 to 34 years","Male",0.190608245913915
-"205","Ontario","35 to 39 years","Female",0.0889095490133697
-"206","Ontario","35 to 39 years","Male",0.158613640461471
-"207","Ontario","40 to 44 years","Female",0.0730218473381317
-"208","Ontario","40 to 44 years","Male",0.133488952653778
-"209","Ontario","45 to 49 years","Female",0.0708585233172393
-"210","Ontario","45 to 49 years","Male",0.129985918286305
-"211","Ontario","50 to 54 years","Female",0.0568719125448256
-"212","Ontario","50 to 54 years","Male",0.10613976485472
-"213","Ontario","55 to 59 years","Female",0.048612300927343
-"214","Ontario","55 to 59 years","Male",0.09007287500309
-"215","Ontario","60 to 64 years","Female",0.0389684669427174
-"216","Ontario","60 to 64 years","Male",0.0721552021701896
-"217","Ontario","65 to 69 years","Female",0.0312642161711908
-"218","Ontario","65 to 69 years","Male",0.057390534148843
-"219","Ontario","70 to 74 years","Female",0.0264830784290108
-"220","Ontario","70 to 74 years","Male",0.0483693239773281
-"221","Ontario","75 to 79 years","Female",0.0241089521860823
-"222","Ontario","75 to 79 years","Male",0.043827194050662
-"223","Ontario","80 years and over","Female",0.0221853354966853
-"224","Ontario","80 years and over","Male",0.0398318314841669
-"225","Prince Edward Island","18 to 19 years","Female",0.176582195289026
-"226","Prince Edward Island","18 to 19 years","Male",0.316491679971399
-"227","Prince Edward Island","20 to 24 years","Female",0.239164329363002
-"228","Prince Edward Island","20 to 24 years","Male",0.367753043765424
-"229","Prince Edward Island","25 to 29 years","Female",0.238030612955093
-"230","Prince Edward Island","25 to 29 years","Male",0.383545578216351
-"231","Prince Edward Island","30 to 34 years","Female",0.187546424739922
-"232","Prince Edward Island","30 to 34 years","Male",0.320997853385582
-"233","Prince Edward Island","35 to 39 years","Female",0.159757762141272
-"234","Prince Edward Island","35 to 39 years","Male",0.26627918985402
-"235","Prince Edward Island","40 to 44 years","Female",0.135468527454312
-"236","Prince Edward Island","40 to 44 years","Male",0.23037084468465
-"237","Prince Edward Island","45 to 49 years","Female",0.128913737292285
-"238","Prince Edward Island","45 to 49 years","Male",0.226565735335237
-"239","Prince Edward Island","50 to 54 years","Female",0.104741870819041
-"240","Prince Edward Island","50 to 54 years","Male",0.180981334682175
-"241","Prince Edward Island","55 to 59 years","Female",0.0928889516023857
-"242","Prince Edward Island","55 to 59 years","Male",0.159540340158937
-"243","Prince Edward Island","60 to 64 years","Female",0.0705204745185385
-"244","Prince Edward Island","60 to 64 years","Male",0.13338673297406
-"245","Prince Edward Island","65 to 69 years","Female",0.0622451280005021
-"246","Prince Edward Island","65 to 69 years","Male",0.107588142901339
-"247","Prince Edward Island","70 to 74 years","Female",0.0525123780323058
-"248","Prince Edward Island","70 to 74 years","Male",0.100182216509487
-"249","Prince Edward Island","75 to 79 years","Female",0.0518113797719333
-"250","Prince Edward Island","75 to 79 years","Male",0.091538742417021
-"251","Prince Edward Island","80 years and over","Female",0.0427927308889068
-"252","Prince Edward Island","80 years and over","Male",0.0766722280031564
-"253","Quebec","18 to 19 years","Female",0.21933307971792
-"254","Quebec","18 to 19 years","Male",0.351958222039827
-"255","Quebec","20 to 24 years","Female",0.263187421630047
-"256","Quebec","20 to 24 years","Male",0.4053694286889
-"257","Quebec","25 to 29 years","Female",0.278941589120504
-"258","Quebec","25 to 29 years","Male",0.431401739636135
-"259","Quebec","30 to 34 years","Female",0.214657010711641
-"260","Quebec","30 to 34 years","Male",0.349469480793644
-"261","Quebec","35 to 39 years","Female",0.17895746605625
-"262","Quebec","35 to 39 years","Male",0.300010275779929
-"263","Quebec","40 to 44 years","Female",0.150807905969195
-"264","Quebec","40 to 44 years","Male",0.258714168261946
-"265","Quebec","45 to 49 years","Female",0.146665191956459
-"266","Quebec","45 to 49 years","Male",0.253181549909826
-"267","Quebec","50 to 54 years","Female",0.120964376602664
-"268","Quebec","50 to 54 years","Male",0.212943703924529
-"269","Quebec","55 to 59 years","Female",0.106817547375808
-"270","Quebec","55 to 59 years","Male",0.186181307443929
-"271","Quebec","60 to 64 years","Female",0.0877839734251145
-"272","Quebec","60 to 64 years","Male",0.154148924091807
-"273","Quebec","65 to 69 years","Female",0.0734125022294812
-"274","Quebec","65 to 69 years","Male",0.128702302516458
-"275","Quebec","70 to 74 years","Female",0.0628545211215884
-"276","Quebec","70 to 74 years","Male",0.111057108403789
-"277","Quebec","75 to 79 years","Female",0.0574278459932711
-"278","Quebec","75 to 79 years","Male",0.101682670049641
-"279","Quebec","80 years and over","Female",0.0519888928048186
-"280","Quebec","80 years and over","Male",0.090908136475216
-"281","Saskatchewan","18 to 19 years","Female",0.220993275224351
-"282","Saskatchewan","18 to 19 years","Male",0.358348062116678
-"283","Saskatchewan","20 to 24 years","Female",0.262883576829353
-"284","Saskatchewan","20 to 24 years","Male",0.405972151402987
-"285","Saskatchewan","25 to 29 years","Female",0.277808349539415
-"286","Saskatchewan","25 to 29 years","Male",0.418463080961982
-"287","Saskatchewan","30 to 34 years","Female",0.213936529910341
-"288","Saskatchewan","30 to 34 years","Male",0.342357005146642
-"289","Saskatchewan","35 to 39 years","Female",0.176838679350469
-"290","Saskatchewan","35 to 39 years","Male",0.296403500105934
-"291","Saskatchewan","40 to 44 years","Female",0.149560486082014
-"292","Saskatchewan","40 to 44 years","Male",0.257443878365733
-"293","Saskatchewan","45 to 49 years","Female",0.14632515817764
-"294","Saskatchewan","45 to 49 years","Male",0.254455157003217
-"295","Saskatchewan","50 to 54 years","Female",0.119704589000003
-"296","Saskatchewan","50 to 54 years","Male",0.212779524536128
-"297","Saskatchewan","55 to 59 years","Female",0.103327205796098
-"298","Saskatchewan","55 to 59 years","Male",0.186473586916331
-"299","Saskatchewan","60 to 64 years","Female",0.0842119296098924
-"300","Saskatchewan","60 to 64 years","Male",0.148137861623434
-"301","Saskatchewan","65 to 69 years","Female",0.0700698083421526
-"302","Saskatchewan","65 to 69 years","Male",0.122879333011097
-"303","Saskatchewan","70 to 74 years","Female",0.0620353642766034
-"304","Saskatchewan","70 to 74 years","Male",0.108965113108481
-"305","Saskatchewan","75 to 79 years","Female",0.0568554126403466
-"306","Saskatchewan","75 to 79 years","Male",0.100154908265958
-"307","Saskatchewan","80 years and over","Female",0.0522761520258894
-"308","Saskatchewan","80 years and over","Male",0.0924448266254968
+province,age,sex,estimation
+Alberta,18 to 19 years,Female,0.171206301
+Alberta,18 to 19 years,Male,0.284330429
+Alberta,20 to 24 years,Female,0.204658729
+Alberta,20 to 24 years,Male,0.329321382
+Alberta,25 to 29 years,Female,0.214580372
+Alberta,25 to 29 years,Male,0.34422314
+Alberta,30 to 34 years,Female,0.163339696
+Alberta,30 to 34 years,Male,0.275793177
+Alberta,35 to 39 years,Female,0.136756348
+Alberta,35 to 39 years,Male,0.236834075
+Alberta,40 to 44 years,Female,0.11461241
+Alberta,40 to 44 years,Male,0.202562099
+Alberta,45 to 49 years,Female,0.111200129
+Alberta,45 to 49 years,Male,0.19734193
+Alberta,50 to 54 years,Female,0.09053419
+Alberta,50 to 54 years,Male,0.163075121
+Alberta,55 to 59 years,Female,0.077805399
+Alberta,55 to 59 years,Male,0.139906796
+Alberta,60 to 64 years,Female,0.062792067
+Alberta,60 to 64 years,Male,0.112884784
+Alberta,65 to 69 years,Female,0.052231168
+Alberta,65 to 69 years,Male,0.0921222
+Alberta,70 to 74 years,Female,0.044138538
+Alberta,70 to 74 years,Male,0.079168517
+Alberta,75 to 79 years,Female,0.041633815
+Alberta,75 to 79 years,Male,0.072770568
+Alberta,80 years and over,Female,0.037587288
+Alberta,80 years and over,Male,0.06662301
+British Columbia,18 to 19 years,Female,0.21009294
+British Columbia,18 to 19 years,Male,0.337538464
+British Columbia,20 to 24 years,Female,0.247083495
+British Columbia,20 to 24 years,Male,0.387525119
+British Columbia,25 to 29 years,Female,0.259568819
+British Columbia,25 to 29 years,Male,0.402836413
+British Columbia,30 to 34 years,Female,0.197874209
+British Columbia,30 to 34 years,Male,0.323418451
+British Columbia,35 to 39 years,Female,0.167326217
+British Columbia,35 to 39 years,Male,0.279820628
+British Columbia,40 to 44 years,Female,0.140979455
+British Columbia,40 to 44 years,Male,0.239415987
+British Columbia,45 to 49 years,Female,0.137712305
+British Columbia,45 to 49 years,Male,0.236165991
+British Columbia,50 to 54 years,Female,0.112782653
+British Columbia,50 to 54 years,Male,0.198333645
+British Columbia,55 to 59 years,Female,0.096820646
+British Columbia,55 to 59 years,Male,0.170450306
+British Columbia,60 to 64 years,Female,0.078058823
+British Columbia,60 to 64 years,Male,0.139931398
+British Columbia,65 to 69 years,Female,0.063694051
+British Columbia,65 to 69 years,Male,0.11385401
+British Columbia,70 to 74 years,Female,0.053983764
+British Columbia,70 to 74 years,Male,0.09536537
+British Columbia,75 to 79 years,Female,0.048955755
+British Columbia,75 to 79 years,Male,0.086533302
+British Columbia,80 years and over,Female,0.04490211
+British Columbia,80 years and over,Male,0.080108745
+Manitoba,18 to 19 years,Female,0.195167403
+Manitoba,18 to 19 years,Male,0.318666198
+Manitoba,20 to 24 years,Female,0.233598945
+Manitoba,20 to 24 years,Male,0.369067814
+Manitoba,25 to 29 years,Female,0.255261468
+Manitoba,25 to 29 years,Male,0.39408544
+Manitoba,30 to 34 years,Female,0.193388907
+Manitoba,30 to 34 years,Male,0.316361062
+Manitoba,35 to 39 years,Female,0.159247776
+Manitoba,35 to 39 years,Male,0.274000244
+Manitoba,40 to 44 years,Female,0.133846264
+Manitoba,40 to 44 years,Male,0.232666489
+Manitoba,45 to 49 years,Female,0.129873522
+Manitoba,45 to 49 years,Male,0.222784104
+Manitoba,50 to 54 years,Female,0.104144044
+Manitoba,50 to 54 years,Male,0.189042931
+Manitoba,55 to 59 years,Female,0.090381462
+Manitoba,55 to 59 years,Male,0.162544775
+Manitoba,60 to 64 years,Female,0.074218601
+Manitoba,60 to 64 years,Male,0.130015224
+Manitoba,65 to 69 years,Female,0.060656129
+Manitoba,65 to 69 years,Male,0.106379802
+Manitoba,70 to 74 years,Female,0.05183393
+Manitoba,70 to 74 years,Male,0.093507978
+Manitoba,75 to 79 years,Female,0.049752753
+Manitoba,75 to 79 years,Male,0.085043759
+Manitoba,80 years and over,Female,0.04426617
+Manitoba,80 years and over,Male,0.076930904
+New Brunswick,18 to 19 years,Female,0.096454526
+New Brunswick,18 to 19 years,Male,0.169829095
+New Brunswick,20 to 24 years,Female,0.122841919
+New Brunswick,20 to 24 years,Male,0.207425566
+New Brunswick,25 to 29 years,Female,0.130108047
+New Brunswick,25 to 29 years,Male,0.224205484
+New Brunswick,30 to 34 years,Female,0.094540561
+New Brunswick,30 to 34 years,Male,0.166208394
+New Brunswick,35 to 39 years,Female,0.07736541
+New Brunswick,35 to 39 years,Male,0.140222159
+New Brunswick,40 to 44 years,Female,0.062473372
+New Brunswick,40 to 44 years,Male,0.117643934
+New Brunswick,45 to 49 years,Female,0.062686445
+New Brunswick,45 to 49 years,Male,0.113628982
+New Brunswick,50 to 54 years,Female,0.050299447
+New Brunswick,50 to 54 years,Male,0.092985204
+New Brunswick,55 to 59 years,Female,0.044059599
+New Brunswick,55 to 59 years,Male,0.079835648
+New Brunswick,60 to 64 years,Female,0.035035044
+New Brunswick,60 to 64 years,Male,0.06454667
+New Brunswick,65 to 69 years,Female,0.028886459
+New Brunswick,65 to 69 years,Male,0.052168862
+New Brunswick,70 to 74 years,Female,0.025022187
+New Brunswick,70 to 74 years,Male,0.045951147
+New Brunswick,75 to 79 years,Female,0.022735754
+New Brunswick,75 to 79 years,Male,0.04163114
+New Brunswick,80 years and over,Female,0.019925148
+New Brunswick,80 years and over,Male,0.036539429
+Newfoundland and Labrador,18 to 19 years,Female,0.198788991
+Newfoundland and Labrador,18 to 19 years,Male,0.32687907
+Newfoundland and Labrador,20 to 24 years,Female,0.247658374
+Newfoundland and Labrador,20 to 24 years,Male,0.375856575
+Newfoundland and Labrador,25 to 29 years,Female,0.254059596
+Newfoundland and Labrador,25 to 29 years,Male,0.4010692
+Newfoundland and Labrador,30 to 34 years,Female,0.198298089
+Newfoundland and Labrador,30 to 34 years,Male,0.317100529
+Newfoundland and Labrador,35 to 39 years,Female,0.164255696
+Newfoundland and Labrador,35 to 39 years,Male,0.271765079
+Newfoundland and Labrador,40 to 44 years,Female,0.139062551
+Newfoundland and Labrador,40 to 44 years,Male,0.236740151
+Newfoundland and Labrador,45 to 49 years,Female,0.134623676
+Newfoundland and Labrador,45 to 49 years,Male,0.233498977
+Newfoundland and Labrador,50 to 54 years,Female,0.112189189
+Newfoundland and Labrador,50 to 54 years,Male,0.196267945
+Newfoundland and Labrador,55 to 59 years,Female,0.097543722
+Newfoundland and Labrador,55 to 59 years,Male,0.1709691
+Newfoundland and Labrador,60 to 64 years,Female,0.081159574
+Newfoundland and Labrador,60 to 64 years,Male,0.142519397
+Newfoundland and Labrador,65 to 69 years,Female,0.068526855
+Newfoundland and Labrador,65 to 69 years,Male,0.123048422
+Newfoundland and Labrador,70 to 74 years,Female,0.06140208
+Newfoundland and Labrador,70 to 74 years,Male,0.106943508
+Newfoundland and Labrador,75 to 79 years,Female,0.056023185
+Newfoundland and Labrador,75 to 79 years,Male,0.100285146
+Newfoundland and Labrador,80 years and over,Female,0.048177927
+Newfoundland and Labrador,80 years and over,Male,0.086529004
+Northern Canada,18 to 19 years,Female,0.566142078
+Northern Canada,18 to 19 years,Male,0.722052005
+Northern Canada,20 to 24 years,Female,0.615979727
+Northern Canada,20 to 24 years,Male,0.749499617
+Northern Canada,25 to 29 years,Female,0.627638031
+Northern Canada,25 to 29 years,Male,0.764397584
+Northern Canada,30 to 34 years,Female,0.561982041
+Northern Canada,30 to 34 years,Male,0.704562187
+Northern Canada,35 to 39 years,Female,0.486233589
+Northern Canada,35 to 39 years,Male,0.652164301
+Northern Canada,40 to 44 years,Female,0.44013819
+Northern Canada,40 to 44 years,Male,0.609449635
+Northern Canada,45 to 49 years,Female,0.434096482
+Northern Canada,45 to 49 years,Male,0.602631462
+Northern Canada,50 to 54 years,Female,0.372678838
+Northern Canada,50 to 54 years,Male,0.541452848
+Northern Canada,55 to 59 years,Female,0.339554355
+Northern Canada,55 to 59 years,Male,0.512803511
+Northern Canada,60 to 64 years,Female,0.282772097
+Northern Canada,60 to 64 years,Male,0.433466129
+Northern Canada,65 to 69 years,Female,0.240108895
+Northern Canada,65 to 69 years,Male,0.370674269
+Northern Canada,70 to 74 years,Female,0.235790876
+Northern Canada,70 to 74 years,Male,0.344266568
+Northern Canada,75 to 79 years,Female,0.21501452
+Northern Canada,75 to 79 years,Male,0.345797736
+Northern Canada,80 years and over,Female,0.168580054
+Northern Canada,80 years and over,Male,0.289875555
+Nova Scotia,18 to 19 years,Female,0.149728053
+Nova Scotia,18 to 19 years,Male,0.26457203
+Nova Scotia,20 to 24 years,Female,0.190145997
+Nova Scotia,20 to 24 years,Male,0.308720711
+Nova Scotia,25 to 29 years,Female,0.202686123
+Nova Scotia,25 to 29 years,Male,0.325017615
+Nova Scotia,30 to 34 years,Female,0.151483403
+Nova Scotia,30 to 34 years,Male,0.254342514
+Nova Scotia,35 to 39 years,Female,0.12389893
+Nova Scotia,35 to 39 years,Male,0.213721791
+Nova Scotia,40 to 44 years,Female,0.1041156
+Nova Scotia,40 to 44 years,Male,0.181668854
+Nova Scotia,45 to 49 years,Female,0.100030102
+Nova Scotia,45 to 49 years,Male,0.176972169
+Nova Scotia,50 to 54 years,Female,0.080648948
+Nova Scotia,50 to 54 years,Male,0.147436451
+Nova Scotia,55 to 59 years,Female,0.070350737
+Nova Scotia,55 to 59 years,Male,0.12790189
+Nova Scotia,60 to 64 years,Female,0.057964687
+Nova Scotia,60 to 64 years,Male,0.103369019
+Nova Scotia,65 to 69 years,Female,0.046885412
+Nova Scotia,65 to 69 years,Male,0.083575268
+Nova Scotia,70 to 74 years,Female,0.040264176
+Nova Scotia,70 to 74 years,Male,0.072157435
+Nova Scotia,75 to 79 years,Female,0.037193164
+Nova Scotia,75 to 79 years,Male,0.065758574
+Nova Scotia,80 years and over,Female,0.033053849
+Nova Scotia,80 years and over,Male,0.059288072
+Ontario,18 to 19 years,Female,0.111303052
+Ontario,18 to 19 years,Male,0.198479329
+Ontario,20 to 24 years,Female,0.135503828
+Ontario,20 to 24 years,Male,0.232500972
+Ontario,25 to 29 years,Female,0.144363885
+Ontario,25 to 29 years,Male,0.246999769
+Ontario,30 to 34 years,Female,0.10875331
+Ontario,30 to 34 years,Male,0.190608246
+Ontario,35 to 39 years,Female,0.088909549
+Ontario,35 to 39 years,Male,0.15861364
+Ontario,40 to 44 years,Female,0.073021847
+Ontario,40 to 44 years,Male,0.133488953
+Ontario,45 to 49 years,Female,0.070858523
+Ontario,45 to 49 years,Male,0.129985918
+Ontario,50 to 54 years,Female,0.056871913
+Ontario,50 to 54 years,Male,0.106139765
+Ontario,55 to 59 years,Female,0.048612301
+Ontario,55 to 59 years,Male,0.090072875
+Ontario,60 to 64 years,Female,0.038968467
+Ontario,60 to 64 years,Male,0.072155202
+Ontario,65 to 69 years,Female,0.031264216
+Ontario,65 to 69 years,Male,0.057390534
+Ontario,70 to 74 years,Female,0.026483078
+Ontario,70 to 74 years,Male,0.048369324
+Ontario,75 to 79 years,Female,0.024108952
+Ontario,75 to 79 years,Male,0.043827194
+Ontario,80 years and over,Female,0.022185335
+Ontario,80 years and over,Male,0.039831831
+Prince Edward Island,18 to 19 years,Female,0.176582195
+Prince Edward Island,18 to 19 years,Male,0.31649168
+Prince Edward Island,20 to 24 years,Female,0.239164329
+Prince Edward Island,20 to 24 years,Male,0.367753044
+Prince Edward Island,25 to 29 years,Female,0.238030613
+Prince Edward Island,25 to 29 years,Male,0.383545578
+Prince Edward Island,30 to 34 years,Female,0.187546425
+Prince Edward Island,30 to 34 years,Male,0.320997853
+Prince Edward Island,35 to 39 years,Female,0.159757762
+Prince Edward Island,35 to 39 years,Male,0.26627919
+Prince Edward Island,40 to 44 years,Female,0.135468527
+Prince Edward Island,40 to 44 years,Male,0.230370845
+Prince Edward Island,45 to 49 years,Female,0.128913737
+Prince Edward Island,45 to 49 years,Male,0.226565735
+Prince Edward Island,50 to 54 years,Female,0.104741871
+Prince Edward Island,50 to 54 years,Male,0.180981335
+Prince Edward Island,55 to 59 years,Female,0.092888952
+Prince Edward Island,55 to 59 years,Male,0.15954034
+Prince Edward Island,60 to 64 years,Female,0.070520475
+Prince Edward Island,60 to 64 years,Male,0.133386733
+Prince Edward Island,65 to 69 years,Female,0.062245128
+Prince Edward Island,65 to 69 years,Male,0.107588143
+Prince Edward Island,70 to 74 years,Female,0.052512378
+Prince Edward Island,70 to 74 years,Male,0.100182217
+Prince Edward Island,75 to 79 years,Female,0.05181138
+Prince Edward Island,75 to 79 years,Male,0.091538742
+Prince Edward Island,80 years and over,Female,0.042792731
+Prince Edward Island,80 years and over,Male,0.076672228
+Quebec,18 to 19 years,Female,0.21933308
+Quebec,18 to 19 years,Male,0.351958222
+Quebec,20 to 24 years,Female,0.263187422
+Quebec,20 to 24 years,Male,0.405369429
+Quebec,25 to 29 years,Female,0.278941589
+Quebec,25 to 29 years,Male,0.43140174
+Quebec,30 to 34 years,Female,0.214657011
+Quebec,30 to 34 years,Male,0.349469481
+Quebec,35 to 39 years,Female,0.178957466
+Quebec,35 to 39 years,Male,0.300010276
+Quebec,40 to 44 years,Female,0.150807906
+Quebec,40 to 44 years,Male,0.258714168
+Quebec,45 to 49 years,Female,0.146665192
+Quebec,45 to 49 years,Male,0.25318155
+Quebec,50 to 54 years,Female,0.120964377
+Quebec,50 to 54 years,Male,0.212943704
+Quebec,55 to 59 years,Female,0.106817547
+Quebec,55 to 59 years,Male,0.186181307
+Quebec,60 to 64 years,Female,0.087783973
+Quebec,60 to 64 years,Male,0.154148924
+Quebec,65 to 69 years,Female,0.073412502
+Quebec,65 to 69 years,Male,0.128702303
+Quebec,70 to 74 years,Female,0.062854521
+Quebec,70 to 74 years,Male,0.111057108
+Quebec,75 to 79 years,Female,0.057427846
+Quebec,75 to 79 years,Male,0.10168267
+Quebec,80 years and over,Female,0.051988893
+Quebec,80 years and over,Male,0.090908136
+Saskatchewan,18 to 19 years,Female,0.220993275
+Saskatchewan,18 to 19 years,Male,0.358348062
+Saskatchewan,20 to 24 years,Female,0.262883577
+Saskatchewan,20 to 24 years,Male,0.405972151
+Saskatchewan,25 to 29 years,Female,0.27780835
+Saskatchewan,25 to 29 years,Male,0.418463081
+Saskatchewan,30 to 34 years,Female,0.21393653
+Saskatchewan,30 to 34 years,Male,0.342357005
+Saskatchewan,35 to 39 years,Female,0.176838679
+Saskatchewan,35 to 39 years,Male,0.2964035
+Saskatchewan,40 to 44 years,Female,0.149560486
+Saskatchewan,40 to 44 years,Male,0.257443878
+Saskatchewan,45 to 49 years,Female,0.146325158
+Saskatchewan,45 to 49 years,Male,0.254455157
+Saskatchewan,50 to 54 years,Female,0.119704589
+Saskatchewan,50 to 54 years,Male,0.212779525
+Saskatchewan,55 to 59 years,Female,0.103327206
+Saskatchewan,55 to 59 years,Male,0.186473587
+Saskatchewan,60 to 64 years,Female,0.08421193
+Saskatchewan,60 to 64 years,Male,0.148137862
+Saskatchewan,65 to 69 years,Female,0.070069808
+Saskatchewan,65 to 69 years,Male,0.122879333
+Saskatchewan,70 to 74 years,Female,0.062035364
+Saskatchewan,70 to 74 years,Male,0.108965113
+Saskatchewan,75 to 79 years,Female,0.056855413
+Saskatchewan,75 to 79 years,Male,0.100154908
+Saskatchewan,80 years and over,Female,0.052276152
+Saskatchewan,80 years and over,Male,0.092444827

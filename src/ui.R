@@ -7,6 +7,7 @@
 #    http://shiny.rstudio.com/
 #
 
+library(shinydashboard)
 library(shiny)
 
 tweaks <- 
@@ -48,22 +49,29 @@ shinyUI(fluidPage(
     # Application title
     titlePanel("The Importance of Having A Primary Healthcare Provider"),
 
-    # Sidebar with a slider input for number of bins
-    fluidRow(
-        column(width = 4, provinceControls),
-        # Show a plot of the generated distribution
-        mainPanel(
-            fluidRow(
-                plotOutput("provincesPlot")
-            )
-        )
-    ),
-    #sidebarLayout(
-    #    checkboxGroupInput(inputId = "category",
-    #                label = "label",
-    #                choices = c("No PHC provider by reasons",
-    #                            "No PHC provider by age group",
-    #                            "PHC vs. No PHC for Health Improvements",
-    #                            "PHC vs. No PHC for Prostate Cancer Screening and Mammogram Tests")),
-    #)
+    checkboxGroupInput(inputId = "province",
+                       label = "Select a province",
+                       choices = sort(c("Alberta",
+                                        "British Columbia",
+                                        "Canada",
+                                        "Manitoba",
+                                        "New Brunswick",
+                                        "Newfoundland and Labrador",
+                                        "Nova Scotia",
+                                        "Ontario",
+                                        "Prince Edward Island",
+                                        "Quebec",
+                                        "Saskatchewan"))),
+    plotOutput("provincesPlot"),
+    checkboxGroupInput(inputId = "category", 
+                       label = "label", 
+                       choices = c("No PHC provider by reasons", 
+                                   "No PHC provider by age group", 
+                                   "PHC vs. No PHC for Health Improvements", 
+                                   "PHC vs. No PHC for Prostate Cancer Screening and Mammogram Tests"),
+                       selected = "No PHC provider by reasons"),
+    uiOutput("reasonsPlot"),
+    plotOutput("ageGroupPlot"),
+    plotOutput("healthImprovementsPlot"),
+    plotOutput("prostateMammogramPlot")
 ))

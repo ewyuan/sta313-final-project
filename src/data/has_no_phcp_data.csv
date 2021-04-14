@@ -1,309 +1,337 @@
 province,age,sex,estimation
-Alberta,18 to 19 years,Female,0.171206301
-Alberta,18 to 19 years,Male,0.284330429
-Alberta,20 to 24 years,Female,0.204658729
-Alberta,20 to 24 years,Male,0.329321382
-Alberta,25 to 29 years,Female,0.214580372
-Alberta,25 to 29 years,Male,0.34422314
-Alberta,30 to 34 years,Female,0.163339696
-Alberta,30 to 34 years,Male,0.275793177
-Alberta,35 to 39 years,Female,0.136756348
-Alberta,35 to 39 years,Male,0.236834075
-Alberta,40 to 44 years,Female,0.11461241
-Alberta,40 to 44 years,Male,0.202562099
-Alberta,45 to 49 years,Female,0.111200129
-Alberta,45 to 49 years,Male,0.19734193
-Alberta,50 to 54 years,Female,0.09053419
-Alberta,50 to 54 years,Male,0.163075121
-Alberta,55 to 59 years,Female,0.077805399
-Alberta,55 to 59 years,Male,0.139906796
-Alberta,60 to 64 years,Female,0.062792067
-Alberta,60 to 64 years,Male,0.112884784
-Alberta,65 to 69 years,Female,0.052231168
-Alberta,65 to 69 years,Male,0.0921222
-Alberta,70 to 74 years,Female,0.044138538
-Alberta,70 to 74 years,Male,0.079168517
-Alberta,75 to 79 years,Female,0.041633815
-Alberta,75 to 79 years,Male,0.072770568
-Alberta,80 years and over,Female,0.037587288
-Alberta,80 years and over,Male,0.06662301
-British Columbia,18 to 19 years,Female,0.21009294
-British Columbia,18 to 19 years,Male,0.337538464
-British Columbia,20 to 24 years,Female,0.247083495
-British Columbia,20 to 24 years,Male,0.387525119
-British Columbia,25 to 29 years,Female,0.259568819
-British Columbia,25 to 29 years,Male,0.402836413
-British Columbia,30 to 34 years,Female,0.197874209
-British Columbia,30 to 34 years,Male,0.323418451
-British Columbia,35 to 39 years,Female,0.167326217
-British Columbia,35 to 39 years,Male,0.279820628
-British Columbia,40 to 44 years,Female,0.140979455
-British Columbia,40 to 44 years,Male,0.239415987
-British Columbia,45 to 49 years,Female,0.137712305
-British Columbia,45 to 49 years,Male,0.236165991
-British Columbia,50 to 54 years,Female,0.112782653
-British Columbia,50 to 54 years,Male,0.198333645
-British Columbia,55 to 59 years,Female,0.096820646
-British Columbia,55 to 59 years,Male,0.170450306
-British Columbia,60 to 64 years,Female,0.078058823
-British Columbia,60 to 64 years,Male,0.139931398
-British Columbia,65 to 69 years,Female,0.063694051
-British Columbia,65 to 69 years,Male,0.11385401
-British Columbia,70 to 74 years,Female,0.053983764
-British Columbia,70 to 74 years,Male,0.09536537
-British Columbia,75 to 79 years,Female,0.048955755
-British Columbia,75 to 79 years,Male,0.086533302
-British Columbia,80 years and over,Female,0.04490211
-British Columbia,80 years and over,Male,0.080108745
-Manitoba,18 to 19 years,Female,0.195167403
-Manitoba,18 to 19 years,Male,0.318666198
-Manitoba,20 to 24 years,Female,0.233598945
-Manitoba,20 to 24 years,Male,0.369067814
-Manitoba,25 to 29 years,Female,0.255261468
-Manitoba,25 to 29 years,Male,0.39408544
-Manitoba,30 to 34 years,Female,0.193388907
-Manitoba,30 to 34 years,Male,0.316361062
-Manitoba,35 to 39 years,Female,0.159247776
-Manitoba,35 to 39 years,Male,0.274000244
-Manitoba,40 to 44 years,Female,0.133846264
-Manitoba,40 to 44 years,Male,0.232666489
-Manitoba,45 to 49 years,Female,0.129873522
-Manitoba,45 to 49 years,Male,0.222784104
-Manitoba,50 to 54 years,Female,0.104144044
-Manitoba,50 to 54 years,Male,0.189042931
-Manitoba,55 to 59 years,Female,0.090381462
-Manitoba,55 to 59 years,Male,0.162544775
-Manitoba,60 to 64 years,Female,0.074218601
-Manitoba,60 to 64 years,Male,0.130015224
-Manitoba,65 to 69 years,Female,0.060656129
-Manitoba,65 to 69 years,Male,0.106379802
-Manitoba,70 to 74 years,Female,0.05183393
-Manitoba,70 to 74 years,Male,0.093507978
-Manitoba,75 to 79 years,Female,0.049752753
-Manitoba,75 to 79 years,Male,0.085043759
-Manitoba,80 years and over,Female,0.04426617
-Manitoba,80 years and over,Male,0.076930904
-New Brunswick,18 to 19 years,Female,0.096454526
-New Brunswick,18 to 19 years,Male,0.169829095
-New Brunswick,20 to 24 years,Female,0.122841919
-New Brunswick,20 to 24 years,Male,0.207425566
-New Brunswick,25 to 29 years,Female,0.130108047
-New Brunswick,25 to 29 years,Male,0.224205484
-New Brunswick,30 to 34 years,Female,0.094540561
-New Brunswick,30 to 34 years,Male,0.166208394
-New Brunswick,35 to 39 years,Female,0.07736541
-New Brunswick,35 to 39 years,Male,0.140222159
-New Brunswick,40 to 44 years,Female,0.062473372
-New Brunswick,40 to 44 years,Male,0.117643934
-New Brunswick,45 to 49 years,Female,0.062686445
-New Brunswick,45 to 49 years,Male,0.113628982
-New Brunswick,50 to 54 years,Female,0.050299447
-New Brunswick,50 to 54 years,Male,0.092985204
-New Brunswick,55 to 59 years,Female,0.044059599
-New Brunswick,55 to 59 years,Male,0.079835648
-New Brunswick,60 to 64 years,Female,0.035035044
-New Brunswick,60 to 64 years,Male,0.06454667
-New Brunswick,65 to 69 years,Female,0.028886459
-New Brunswick,65 to 69 years,Male,0.052168862
-New Brunswick,70 to 74 years,Female,0.025022187
-New Brunswick,70 to 74 years,Male,0.045951147
-New Brunswick,75 to 79 years,Female,0.022735754
-New Brunswick,75 to 79 years,Male,0.04163114
-New Brunswick,80 years and over,Female,0.019925148
-New Brunswick,80 years and over,Male,0.036539429
-Newfoundland and Labrador,18 to 19 years,Female,0.198788991
-Newfoundland and Labrador,18 to 19 years,Male,0.32687907
-Newfoundland and Labrador,20 to 24 years,Female,0.247658374
-Newfoundland and Labrador,20 to 24 years,Male,0.375856575
-Newfoundland and Labrador,25 to 29 years,Female,0.254059596
-Newfoundland and Labrador,25 to 29 years,Male,0.4010692
-Newfoundland and Labrador,30 to 34 years,Female,0.198298089
-Newfoundland and Labrador,30 to 34 years,Male,0.317100529
-Newfoundland and Labrador,35 to 39 years,Female,0.164255696
-Newfoundland and Labrador,35 to 39 years,Male,0.271765079
-Newfoundland and Labrador,40 to 44 years,Female,0.139062551
-Newfoundland and Labrador,40 to 44 years,Male,0.236740151
-Newfoundland and Labrador,45 to 49 years,Female,0.134623676
-Newfoundland and Labrador,45 to 49 years,Male,0.233498977
-Newfoundland and Labrador,50 to 54 years,Female,0.112189189
-Newfoundland and Labrador,50 to 54 years,Male,0.196267945
-Newfoundland and Labrador,55 to 59 years,Female,0.097543722
-Newfoundland and Labrador,55 to 59 years,Male,0.1709691
-Newfoundland and Labrador,60 to 64 years,Female,0.081159574
-Newfoundland and Labrador,60 to 64 years,Male,0.142519397
-Newfoundland and Labrador,65 to 69 years,Female,0.068526855
-Newfoundland and Labrador,65 to 69 years,Male,0.123048422
-Newfoundland and Labrador,70 to 74 years,Female,0.06140208
-Newfoundland and Labrador,70 to 74 years,Male,0.106943508
-Newfoundland and Labrador,75 to 79 years,Female,0.056023185
-Newfoundland and Labrador,75 to 79 years,Male,0.100285146
-Newfoundland and Labrador,80 years and over,Female,0.048177927
-Newfoundland and Labrador,80 years and over,Male,0.086529004
-Northern Canada,18 to 19 years,Female,0.566142078
-Northern Canada,18 to 19 years,Male,0.722052005
-Northern Canada,20 to 24 years,Female,0.615979727
-Northern Canada,20 to 24 years,Male,0.749499617
-Northern Canada,25 to 29 years,Female,0.627638031
-Northern Canada,25 to 29 years,Male,0.764397584
-Northern Canada,30 to 34 years,Female,0.561982041
-Northern Canada,30 to 34 years,Male,0.704562187
-Northern Canada,35 to 39 years,Female,0.486233589
-Northern Canada,35 to 39 years,Male,0.652164301
-Northern Canada,40 to 44 years,Female,0.44013819
-Northern Canada,40 to 44 years,Male,0.609449635
-Northern Canada,45 to 49 years,Female,0.434096482
-Northern Canada,45 to 49 years,Male,0.602631462
-Northern Canada,50 to 54 years,Female,0.372678838
-Northern Canada,50 to 54 years,Male,0.541452848
-Northern Canada,55 to 59 years,Female,0.339554355
-Northern Canada,55 to 59 years,Male,0.512803511
-Northern Canada,60 to 64 years,Female,0.282772097
-Northern Canada,60 to 64 years,Male,0.433466129
-Northern Canada,65 to 69 years,Female,0.240108895
-Northern Canada,65 to 69 years,Male,0.370674269
-Northern Canada,70 to 74 years,Female,0.235790876
-Northern Canada,70 to 74 years,Male,0.344266568
-Northern Canada,75 to 79 years,Female,0.21501452
-Northern Canada,75 to 79 years,Male,0.345797736
-Northern Canada,80 years and over,Female,0.168580054
-Northern Canada,80 years and over,Male,0.289875555
-Nova Scotia,18 to 19 years,Female,0.149728053
-Nova Scotia,18 to 19 years,Male,0.26457203
-Nova Scotia,20 to 24 years,Female,0.190145997
-Nova Scotia,20 to 24 years,Male,0.308720711
-Nova Scotia,25 to 29 years,Female,0.202686123
-Nova Scotia,25 to 29 years,Male,0.325017615
-Nova Scotia,30 to 34 years,Female,0.151483403
-Nova Scotia,30 to 34 years,Male,0.254342514
-Nova Scotia,35 to 39 years,Female,0.12389893
-Nova Scotia,35 to 39 years,Male,0.213721791
-Nova Scotia,40 to 44 years,Female,0.1041156
-Nova Scotia,40 to 44 years,Male,0.181668854
-Nova Scotia,45 to 49 years,Female,0.100030102
-Nova Scotia,45 to 49 years,Male,0.176972169
-Nova Scotia,50 to 54 years,Female,0.080648948
-Nova Scotia,50 to 54 years,Male,0.147436451
-Nova Scotia,55 to 59 years,Female,0.070350737
-Nova Scotia,55 to 59 years,Male,0.12790189
-Nova Scotia,60 to 64 years,Female,0.057964687
-Nova Scotia,60 to 64 years,Male,0.103369019
-Nova Scotia,65 to 69 years,Female,0.046885412
-Nova Scotia,65 to 69 years,Male,0.083575268
-Nova Scotia,70 to 74 years,Female,0.040264176
-Nova Scotia,70 to 74 years,Male,0.072157435
-Nova Scotia,75 to 79 years,Female,0.037193164
-Nova Scotia,75 to 79 years,Male,0.065758574
-Nova Scotia,80 years and over,Female,0.033053849
-Nova Scotia,80 years and over,Male,0.059288072
-Ontario,18 to 19 years,Female,0.111303052
-Ontario,18 to 19 years,Male,0.198479329
-Ontario,20 to 24 years,Female,0.135503828
-Ontario,20 to 24 years,Male,0.232500972
-Ontario,25 to 29 years,Female,0.144363885
-Ontario,25 to 29 years,Male,0.246999769
-Ontario,30 to 34 years,Female,0.10875331
-Ontario,30 to 34 years,Male,0.190608246
-Ontario,35 to 39 years,Female,0.088909549
-Ontario,35 to 39 years,Male,0.15861364
-Ontario,40 to 44 years,Female,0.073021847
-Ontario,40 to 44 years,Male,0.133488953
-Ontario,45 to 49 years,Female,0.070858523
-Ontario,45 to 49 years,Male,0.129985918
-Ontario,50 to 54 years,Female,0.056871913
-Ontario,50 to 54 years,Male,0.106139765
-Ontario,55 to 59 years,Female,0.048612301
-Ontario,55 to 59 years,Male,0.090072875
-Ontario,60 to 64 years,Female,0.038968467
-Ontario,60 to 64 years,Male,0.072155202
-Ontario,65 to 69 years,Female,0.031264216
-Ontario,65 to 69 years,Male,0.057390534
-Ontario,70 to 74 years,Female,0.026483078
-Ontario,70 to 74 years,Male,0.048369324
-Ontario,75 to 79 years,Female,0.024108952
-Ontario,75 to 79 years,Male,0.043827194
-Ontario,80 years and over,Female,0.022185335
-Ontario,80 years and over,Male,0.039831831
-Prince Edward Island,18 to 19 years,Female,0.176582195
-Prince Edward Island,18 to 19 years,Male,0.31649168
-Prince Edward Island,20 to 24 years,Female,0.239164329
-Prince Edward Island,20 to 24 years,Male,0.367753044
-Prince Edward Island,25 to 29 years,Female,0.238030613
-Prince Edward Island,25 to 29 years,Male,0.383545578
-Prince Edward Island,30 to 34 years,Female,0.187546425
-Prince Edward Island,30 to 34 years,Male,0.320997853
-Prince Edward Island,35 to 39 years,Female,0.159757762
-Prince Edward Island,35 to 39 years,Male,0.26627919
-Prince Edward Island,40 to 44 years,Female,0.135468527
-Prince Edward Island,40 to 44 years,Male,0.230370845
-Prince Edward Island,45 to 49 years,Female,0.128913737
-Prince Edward Island,45 to 49 years,Male,0.226565735
-Prince Edward Island,50 to 54 years,Female,0.104741871
-Prince Edward Island,50 to 54 years,Male,0.180981335
-Prince Edward Island,55 to 59 years,Female,0.092888952
-Prince Edward Island,55 to 59 years,Male,0.15954034
-Prince Edward Island,60 to 64 years,Female,0.070520475
-Prince Edward Island,60 to 64 years,Male,0.133386733
-Prince Edward Island,65 to 69 years,Female,0.062245128
-Prince Edward Island,65 to 69 years,Male,0.107588143
-Prince Edward Island,70 to 74 years,Female,0.052512378
-Prince Edward Island,70 to 74 years,Male,0.100182217
-Prince Edward Island,75 to 79 years,Female,0.05181138
-Prince Edward Island,75 to 79 years,Male,0.091538742
-Prince Edward Island,80 years and over,Female,0.042792731
-Prince Edward Island,80 years and over,Male,0.076672228
-Quebec,18 to 19 years,Female,0.21933308
-Quebec,18 to 19 years,Male,0.351958222
-Quebec,20 to 24 years,Female,0.263187422
-Quebec,20 to 24 years,Male,0.405369429
-Quebec,25 to 29 years,Female,0.278941589
-Quebec,25 to 29 years,Male,0.43140174
-Quebec,30 to 34 years,Female,0.214657011
-Quebec,30 to 34 years,Male,0.349469481
-Quebec,35 to 39 years,Female,0.178957466
-Quebec,35 to 39 years,Male,0.300010276
-Quebec,40 to 44 years,Female,0.150807906
-Quebec,40 to 44 years,Male,0.258714168
-Quebec,45 to 49 years,Female,0.146665192
-Quebec,45 to 49 years,Male,0.25318155
-Quebec,50 to 54 years,Female,0.120964377
-Quebec,50 to 54 years,Male,0.212943704
-Quebec,55 to 59 years,Female,0.106817547
-Quebec,55 to 59 years,Male,0.186181307
-Quebec,60 to 64 years,Female,0.087783973
-Quebec,60 to 64 years,Male,0.154148924
-Quebec,65 to 69 years,Female,0.073412502
-Quebec,65 to 69 years,Male,0.128702303
-Quebec,70 to 74 years,Female,0.062854521
-Quebec,70 to 74 years,Male,0.111057108
-Quebec,75 to 79 years,Female,0.057427846
-Quebec,75 to 79 years,Male,0.10168267
-Quebec,80 years and over,Female,0.051988893
-Quebec,80 years and over,Male,0.090908136
-Saskatchewan,18 to 19 years,Female,0.220993275
-Saskatchewan,18 to 19 years,Male,0.358348062
-Saskatchewan,20 to 24 years,Female,0.262883577
-Saskatchewan,20 to 24 years,Male,0.405972151
-Saskatchewan,25 to 29 years,Female,0.27780835
-Saskatchewan,25 to 29 years,Male,0.418463081
-Saskatchewan,30 to 34 years,Female,0.21393653
-Saskatchewan,30 to 34 years,Male,0.342357005
-Saskatchewan,35 to 39 years,Female,0.176838679
-Saskatchewan,35 to 39 years,Male,0.2964035
-Saskatchewan,40 to 44 years,Female,0.149560486
-Saskatchewan,40 to 44 years,Male,0.257443878
-Saskatchewan,45 to 49 years,Female,0.146325158
-Saskatchewan,45 to 49 years,Male,0.254455157
-Saskatchewan,50 to 54 years,Female,0.119704589
-Saskatchewan,50 to 54 years,Male,0.212779525
-Saskatchewan,55 to 59 years,Female,0.103327206
-Saskatchewan,55 to 59 years,Male,0.186473587
-Saskatchewan,60 to 64 years,Female,0.08421193
-Saskatchewan,60 to 64 years,Male,0.148137862
-Saskatchewan,65 to 69 years,Female,0.070069808
-Saskatchewan,65 to 69 years,Male,0.122879333
-Saskatchewan,70 to 74 years,Female,0.062035364
-Saskatchewan,70 to 74 years,Male,0.108965113
-Saskatchewan,75 to 79 years,Female,0.056855413
-Saskatchewan,75 to 79 years,Male,0.100154908
-Saskatchewan,80 years and over,Female,0.052276152
-Saskatchewan,80 years and over,Male,0.092444827
+Alberta,³80,Female,0.037587288
+Alberta,³80,Male,0.06662301
+Alberta,18-19,Female,0.171206301
+Alberta,18-19,Male,0.284330429
+Alberta,20-24,Female,0.204658729
+Alberta,20-24,Male,0.329321382
+Alberta,25-29,Female,0.214580372
+Alberta,25-29,Male,0.34422314
+Alberta,30-34,Female,0.163339696
+Alberta,30-34,Male,0.275793177
+Alberta,35-39,Female,0.136756348
+Alberta,35-39,Male,0.236834075
+Alberta,40-44,Female,0.11461241
+Alberta,40-44,Male,0.202562099
+Alberta,45-49,Female,0.111200129
+Alberta,45-49,Male,0.19734193
+Alberta,50-54,Female,0.09053419
+Alberta,50-54,Male,0.163075121
+Alberta,55-59,Female,0.077805399
+Alberta,55-59,Male,0.139906796
+Alberta,60-64,Female,0.062792067
+Alberta,60-64,Male,0.112884784
+Alberta,65-69,Female,0.052231168
+Alberta,65-69,Male,0.0921222
+Alberta,70-74,Female,0.044138538
+Alberta,70-74,Male,0.079168517
+Alberta,75-79,Female,0.041633815
+Alberta,75-79,Male,0.072770568
+British Columbia,³80,Female,0.04490211
+British Columbia,³80,Male,0.080108745
+British Columbia,18-19,Female,0.21009294
+British Columbia,18-19,Male,0.337538464
+British Columbia,20-24,Female,0.247083495
+British Columbia,20-24,Male,0.387525119
+British Columbia,25-29,Female,0.259568819
+British Columbia,25-29,Male,0.402836413
+British Columbia,30-34,Female,0.197874209
+British Columbia,30-34,Male,0.323418451
+British Columbia,35-39,Female,0.167326217
+British Columbia,35-39,Male,0.279820628
+British Columbia,40-44,Female,0.140979455
+British Columbia,40-44,Male,0.239415987
+British Columbia,45-49,Female,0.137712305
+British Columbia,45-49,Male,0.236165991
+British Columbia,50-54,Female,0.112782653
+British Columbia,50-54,Male,0.198333645
+British Columbia,55-59,Female,0.096820646
+British Columbia,55-59,Male,0.170450306
+British Columbia,60-64,Female,0.078058823
+British Columbia,60-64,Male,0.139931398
+British Columbia,65-69,Female,0.063694051
+British Columbia,65-69,Male,0.11385401
+British Columbia,70-74,Female,0.053983764
+British Columbia,70-74,Male,0.09536537
+British Columbia,75-79,Female,0.048955755
+British Columbia,75-79,Male,0.086533302
+Manitoba,³80,Female,0.04426617
+Manitoba,³80,Male,0.076930904
+Manitoba,18-19,Female,0.195167403
+Manitoba,18-19,Male,0.318666198
+Manitoba,20-24,Female,0.233598945
+Manitoba,20-24,Male,0.369067814
+Manitoba,25-29,Female,0.255261468
+Manitoba,25-29,Male,0.39408544
+Manitoba,30-34,Female,0.193388907
+Manitoba,30-34,Male,0.316361062
+Manitoba,35-39,Female,0.159247776
+Manitoba,35-39,Male,0.274000244
+Manitoba,40-44,Female,0.133846264
+Manitoba,40-44,Male,0.232666489
+Manitoba,45-49,Female,0.129873522
+Manitoba,45-49,Male,0.222784104
+Manitoba,50-54,Female,0.104144044
+Manitoba,50-54,Male,0.189042931
+Manitoba,55-59,Female,0.090381462
+Manitoba,55-59,Male,0.162544775
+Manitoba,60-64,Female,0.074218601
+Manitoba,60-64,Male,0.130015224
+Manitoba,65-69,Female,0.060656129
+Manitoba,65-69,Male,0.106379802
+Manitoba,70-74,Female,0.05183393
+Manitoba,70-74,Male,0.093507978
+Manitoba,75-79,Female,0.049752753
+Manitoba,75-79,Male,0.085043759
+New Brunswick,³80,Female,0.019925148
+New Brunswick,³80,Male,0.036539429
+New Brunswick,18-19,Female,0.096454526
+New Brunswick,18-19,Male,0.169829095
+New Brunswick,20-24,Female,0.122841919
+New Brunswick,20-24,Male,0.207425566
+New Brunswick,25-29,Female,0.130108047
+New Brunswick,25-29,Male,0.224205484
+New Brunswick,30-34,Female,0.094540561
+New Brunswick,30-34,Male,0.166208394
+New Brunswick,35-39,Female,0.07736541
+New Brunswick,35-39,Male,0.140222159
+New Brunswick,40-44,Female,0.062473372
+New Brunswick,40-44,Male,0.117643934
+New Brunswick,45-49,Female,0.062686445
+New Brunswick,45-49,Male,0.113628982
+New Brunswick,50-54,Female,0.050299447
+New Brunswick,50-54,Male,0.092985204
+New Brunswick,55-59,Female,0.044059599
+New Brunswick,55-59,Male,0.079835648
+New Brunswick,60-64,Female,0.035035044
+New Brunswick,60-64,Male,0.06454667
+New Brunswick,65-69,Female,0.028886459
+New Brunswick,65-69,Male,0.052168862
+New Brunswick,70-74,Female,0.025022187
+New Brunswick,70-74,Male,0.045951147
+New Brunswick,75-79,Female,0.022735754
+New Brunswick,75-79,Male,0.04163114
+Newfoundland and Labrador,³80,Female,0.048177927
+Newfoundland and Labrador,³80,Male,0.086529004
+Newfoundland and Labrador,18-19,Female,0.198788991
+Newfoundland and Labrador,18-19,Male,0.32687907
+Newfoundland and Labrador,20-24,Female,0.247658374
+Newfoundland and Labrador,20-24,Male,0.375856575
+Newfoundland and Labrador,25-29,Female,0.254059596
+Newfoundland and Labrador,25-29,Male,0.4010692
+Newfoundland and Labrador,30-34,Female,0.198298089
+Newfoundland and Labrador,30-34,Male,0.317100529
+Newfoundland and Labrador,35-39,Female,0.164255696
+Newfoundland and Labrador,35-39,Male,0.271765079
+Newfoundland and Labrador,40-44,Female,0.139062551
+Newfoundland and Labrador,40-44,Male,0.236740151
+Newfoundland and Labrador,45-49,Female,0.134623676
+Newfoundland and Labrador,45-49,Male,0.233498977
+Newfoundland and Labrador,50-54,Female,0.112189189
+Newfoundland and Labrador,50-54,Male,0.196267945
+Newfoundland and Labrador,55-59,Female,0.097543722
+Newfoundland and Labrador,55-59,Male,0.1709691
+Newfoundland and Labrador,60-64,Female,0.081159574
+Newfoundland and Labrador,60-64,Male,0.142519397
+Newfoundland and Labrador,65-69,Female,0.068526855
+Newfoundland and Labrador,65-69,Male,0.123048422
+Newfoundland and Labrador,70-74,Female,0.06140208
+Newfoundland and Labrador,70-74,Male,0.106943508
+Newfoundland and Labrador,75-79,Female,0.056023185
+Newfoundland and Labrador,75-79,Male,0.100285146
+Northern Canada,³80,Female,0.168580054
+Northern Canada,³80,Male,0.289875555
+Northern Canada,18-19,Female,0.566142078
+Northern Canada,18-19,Male,0.722052005
+Northern Canada,20-24,Female,0.615979727
+Northern Canada,20-24,Male,0.749499617
+Northern Canada,25-29,Female,0.627638031
+Northern Canada,25-29,Male,0.764397584
+Northern Canada,30-34,Female,0.561982041
+Northern Canada,30-34,Male,0.704562187
+Northern Canada,35-39,Female,0.486233589
+Northern Canada,35-39,Male,0.652164301
+Northern Canada,40-44,Female,0.44013819
+Northern Canada,40-44,Male,0.609449635
+Northern Canada,45-49,Female,0.434096482
+Northern Canada,45-49,Male,0.602631462
+Northern Canada,50-54,Female,0.372678838
+Northern Canada,50-54,Male,0.541452848
+Northern Canada,55-59,Female,0.339554355
+Northern Canada,55-59,Male,0.512803511
+Northern Canada,60-64,Female,0.282772097
+Northern Canada,60-64,Male,0.433466129
+Northern Canada,65-69,Female,0.240108895
+Northern Canada,65-69,Male,0.370674269
+Northern Canada,70-74,Female,0.235790876
+Northern Canada,70-74,Male,0.344266568
+Northern Canada,75-79,Female,0.21501452
+Northern Canada,75-79,Male,0.345797736
+Nova Scotia,³80,Female,0.033053849
+Nova Scotia,³80,Male,0.059288072
+Nova Scotia,18-19,Female,0.149728053
+Nova Scotia,18-19,Male,0.26457203
+Nova Scotia,20-24,Female,0.190145997
+Nova Scotia,20-24,Male,0.308720711
+Nova Scotia,25-29,Female,0.202686123
+Nova Scotia,25-29,Male,0.325017615
+Nova Scotia,30-34,Female,0.151483403
+Nova Scotia,30-34,Male,0.254342514
+Nova Scotia,35-39,Female,0.12389893
+Nova Scotia,35-39,Male,0.213721791
+Nova Scotia,40-44,Female,0.1041156
+Nova Scotia,40-44,Male,0.181668854
+Nova Scotia,45-49,Female,0.100030102
+Nova Scotia,45-49,Male,0.176972169
+Nova Scotia,50-54,Female,0.080648948
+Nova Scotia,50-54,Male,0.147436451
+Nova Scotia,55-59,Female,0.070350737
+Nova Scotia,55-59,Male,0.12790189
+Nova Scotia,60-64,Female,0.057964687
+Nova Scotia,60-64,Male,0.103369019
+Nova Scotia,65-69,Female,0.046885412
+Nova Scotia,65-69,Male,0.083575268
+Nova Scotia,70-74,Female,0.040264176
+Nova Scotia,70-74,Male,0.072157435
+Nova Scotia,75-79,Female,0.037193164
+Nova Scotia,75-79,Male,0.065758574
+Ontario,³80,Female,0.022185335
+Ontario,³80,Male,0.039831831
+Ontario,18-19,Female,0.111303052
+Ontario,18-19,Male,0.198479329
+Ontario,20-24,Female,0.135503828
+Ontario,20-24,Male,0.232500972
+Ontario,25-29,Female,0.144363885
+Ontario,25-29,Male,0.246999769
+Ontario,30-34,Female,0.10875331
+Ontario,30-34,Male,0.190608246
+Ontario,35-39,Female,0.088909549
+Ontario,35-39,Male,0.15861364
+Ontario,40-44,Female,0.073021847
+Ontario,40-44,Male,0.133488953
+Ontario,45-49,Female,0.070858523
+Ontario,45-49,Male,0.129985918
+Ontario,50-54,Female,0.056871913
+Ontario,50-54,Male,0.106139765
+Ontario,55-59,Female,0.048612301
+Ontario,55-59,Male,0.090072875
+Ontario,60-64,Female,0.038968467
+Ontario,60-64,Male,0.072155202
+Ontario,65-69,Female,0.031264216
+Ontario,65-69,Male,0.057390534
+Ontario,70-74,Female,0.026483078
+Ontario,70-74,Male,0.048369324
+Ontario,75-79,Female,0.024108952
+Ontario,75-79,Male,0.043827194
+Prince Edward Island,³80,Female,0.042792731
+Prince Edward Island,³80,Male,0.076672228
+Prince Edward Island,18-19,Female,0.176582195
+Prince Edward Island,18-19,Male,0.31649168
+Prince Edward Island,20-24,Female,0.239164329
+Prince Edward Island,20-24,Male,0.367753044
+Prince Edward Island,25-29,Female,0.238030613
+Prince Edward Island,25-29,Male,0.383545578
+Prince Edward Island,30-34,Female,0.187546425
+Prince Edward Island,30-34,Male,0.320997853
+Prince Edward Island,35-39,Female,0.159757762
+Prince Edward Island,35-39,Male,0.26627919
+Prince Edward Island,40-44,Female,0.135468527
+Prince Edward Island,40-44,Male,0.230370845
+Prince Edward Island,45-49,Female,0.128913737
+Prince Edward Island,45-49,Male,0.226565735
+Prince Edward Island,50-54,Female,0.104741871
+Prince Edward Island,50-54,Male,0.180981335
+Prince Edward Island,55-59,Female,0.092888952
+Prince Edward Island,55-59,Male,0.15954034
+Prince Edward Island,60-64,Female,0.070520475
+Prince Edward Island,60-64,Male,0.133386733
+Prince Edward Island,65-69,Female,0.062245128
+Prince Edward Island,65-69,Male,0.107588143
+Prince Edward Island,70-74,Female,0.052512378
+Prince Edward Island,70-74,Male,0.100182217
+Prince Edward Island,75-79,Female,0.05181138
+Prince Edward Island,75-79,Male,0.091538742
+Quebec,³80,Female,0.051988893
+Quebec,³80,Male,0.090908136
+Quebec,18-19,Female,0.21933308
+Quebec,18-19,Male,0.351958222
+Quebec,20-24,Female,0.263187422
+Quebec,20-24,Male,0.405369429
+Quebec,25-29,Female,0.278941589
+Quebec,25-29,Male,0.43140174
+Quebec,30-34,Female,0.214657011
+Quebec,30-34,Male,0.349469481
+Quebec,35-39,Female,0.178957466
+Quebec,35-39,Male,0.300010276
+Quebec,40-44,Female,0.150807906
+Quebec,40-44,Male,0.258714168
+Quebec,45-49,Female,0.146665192
+Quebec,45-49,Male,0.25318155
+Quebec,50-54,Female,0.120964377
+Quebec,50-54,Male,0.212943704
+Quebec,55-59,Female,0.106817547
+Quebec,55-59,Male,0.186181307
+Quebec,60-64,Female,0.087783973
+Quebec,60-64,Male,0.154148924
+Quebec,65-69,Female,0.073412502
+Quebec,65-69,Male,0.128702303
+Quebec,70-74,Female,0.062854521
+Quebec,70-74,Male,0.111057108
+Quebec,75-79,Female,0.057427846
+Quebec,75-79,Male,0.10168267
+Saskatchewan,³80,Female,0.052276152
+Saskatchewan,³80,Male,0.092444827
+Saskatchewan,18-19,Female,0.220993275
+Saskatchewan,18-19,Male,0.358348062
+Saskatchewan,20-24,Female,0.262883577
+Saskatchewan,20-24,Male,0.405972151
+Saskatchewan,25-29,Female,0.27780835
+Saskatchewan,25-29,Male,0.418463081
+Saskatchewan,30-34,Female,0.21393653
+Saskatchewan,30-34,Male,0.342357005
+Saskatchewan,35-39,Female,0.176838679
+Saskatchewan,35-39,Male,0.2964035
+Saskatchewan,40-44,Female,0.149560486
+Saskatchewan,40-44,Male,0.257443878
+Saskatchewan,45-49,Female,0.146325158
+Saskatchewan,45-49,Male,0.254455157
+Saskatchewan,50-54,Female,0.119704589
+Saskatchewan,50-54,Male,0.212779525
+Saskatchewan,55-59,Female,0.103327206
+Saskatchewan,55-59,Male,0.186473587
+Saskatchewan,60-64,Female,0.08421193
+Saskatchewan,60-64,Male,0.148137862
+Saskatchewan,65-69,Female,0.070069808
+Saskatchewan,65-69,Male,0.122879333
+Saskatchewan,70-74,Female,0.062035364
+Saskatchewan,70-74,Male,0.108965113
+Saskatchewan,75-79,Female,0.056855413
+Saskatchewan,75-79,Male,0.100154908
+Canada,³80,Female,0.051430514
+Canada,³80,Male,0.090522886
+Canada,18-19,Female,0.210526536
+Canada,18-19,Male,0.331740417
+Canada,20-24,Female,0.251155122
+Canada,20-24,Male,0.376273853
+Canada,25-29,Female,0.262095172
+Canada,25-29,Male,0.394204095
+Canada,30-34,Female,0.207800017
+Canada,30-34,Male,0.323747173
+Canada,35-39,Female,0.174504311
+Canada,35-39,Male,0.28089408
+Canada,40-44,Female,0.149462419
+Canada,40-44,Male,0.245469545
+Canada,45-49,Female,0.145725934
+Canada,45-49,Male,0.240655634
+Canada,50-54,Female,0.12050546
+Canada,50-54,Male,0.203767134
+Canada,55-59,Female,0.106196539
+Canada,55-59,Male,0.180607285
+Canada,60-64,Female,0.086680522
+Canada,60-64,Male,0.148596486
+Canada,65-69,Female,0.072543693
+Canada,65-69,Male,0.123489377
+Canada,70-74,Female,0.065120081
+Canada,70-74,Male,0.109630389
+Canada,75-79,Female,0.060137503
+Canada,75-79,Male,0.103183976

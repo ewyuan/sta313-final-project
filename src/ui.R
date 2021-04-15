@@ -43,30 +43,13 @@ shinyUI(fluidPage(
                                selected = "Canada")
         ),
         plotOutput("provincesPlot"),
-        wellPanel(
-            checkboxGroupInput(inputId = "category", 
-                               label = "Select a visualization:", 
-                               choices = c("No PHC provider by reasons", 
-                                           "No PHC provider by age group", 
-                                           "PHC vs. No PHC for Health Improvements", 
-                                           "PHC vs. No PHC for Prostate Cancer Screening and Mammogram Tests"),
-                               selected = "No PHC provider by reasons")
-        ),
         conditionalPanel(
-            condition = "input.category.includes('No PHC provider by reasons') && input.province.length !== 0",
-            plotOutput("reasonsPlot")
-        ),
-        conditionalPanel(
-            condition = "input.category.includes('No PHC provider by age group')  && input.province.length !== 0",
-            plotOutput("ageGroupPlot")
-        ),
-        conditionalPanel(
-            condition = "input.category.includes('PHC vs. No PHC for Health Improvements') && input.province.length !== 0",
-            plotOutput("healthImprovementsPlot")
-        ),
-        conditionalPanel(
-            condition = "input.category.includes('PHC vs. No PHC for Prostate Cancer Screening and Mammogram Tests') && input.province.length !== 0",
-            plotOutput("prostateMammogramPlot")
+            condition = "input.province.length !== 0",
+            tabsetPanel(type = "tabs",
+                        tabPanel("No PHC provider by reasons", plotOutput("reasonsPlot")),
+                        tabPanel("No PHC provider by age group", plotOutput("ageGroupPlot")),
+                        tabPanel("PHC vs. No PHC for Health Improvements", plotOutput("healthImprovementsPlot")),
+                        tabPanel("PHC vs. No PHC for Prostate Cancer Screening and Mammogram Tests", plotOutput("prostateMammogramPlot")))
         )
     )
 ))

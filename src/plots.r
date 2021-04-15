@@ -129,6 +129,9 @@ plot_prostate_mammogram <- function(df) {
                        labels = c("Without", "With")) +
     facet_wrap(~province, ncol = num_cols, nrow = num_rows) +
     theme(axis.line=element_blank(),
-          legend.position = "top")
+          legend.position = "top",
+          panel.grid.major.y = element_blank(),
+          panel.grid.minor = element_blank(),
+          panel.grid.major.x = element_blank())
   return(plot)
 }

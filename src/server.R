@@ -41,29 +41,17 @@ shinyServer(function(input, output) {
     reasons <- reactive({
         dplyr::filter(reasons_data, province %in% input$province)
     })
-    show_reasons <- reactive({
-        ifelse("No PHC provider by reasons" %in% input$category, 1, 0)
-    })
     
     has_no_phcp <- reactive({
         dplyr::filter(has_no_phcp_data, province %in% input$province)
-    })
-    show_no_phcp <- reactive({
-        ifelse("No PHC provider by age group" %in% input$category, 1, 0)
     })
     
     health_improvements <- reactive({
         dplyr::filter(health_improvements_data, province %in% input$province)
     })
-    show_health_improvements <- reactive({
-        ifelse("PHC vs. No PHC for Health Improvements" %in% input$category, 1, 0)
-    })
     
     screening <- reactive({
         dplyr::filter(screening_data, province %in% input$province)
-    })
-    show_screening <- reactive({
-        ifelse("PHC vs. No PHC for Prostate Cancer Screening and Mammogram Tests" %in% input$category, 1, 0)
     })
     
     output$provincesPlot <- renderPlot({
@@ -78,34 +66,27 @@ shinyServer(function(input, output) {
             theme(legend.position="none",
                   plot.title = element_text(hjust = 0.5),
                   axis.text = element_text(),
-                  axis.title = element_text()) +
+                  axis.title = element_text(),
+                  panel.grid.major.y = element_blank(),
+                  panel.grid.minor = element_blank(),
+                  panel.grid.major.x = element_blank()) +
             xlab("Provinces") +
             ylab("Proportion")
     })
     
-    # TODO: Need to finish
     output$reasonsPlot <- renderPlot({
-        if (show_reasons()) {
-            plot_reasons(reasons())
-        }
+        plot_reasons(reasons())
     })
     
     output$ageGroupPlot <- renderPlot({
-        if (show_no_phcp()) {
-            plot_age_group(has_no_phcp())
-        }
+        plot_age_group(has_no_phcp())
     })
     
-    # TODO: Need to finish
     output$healthImprovementsPlot <- renderPlot({
-        if (show_health_improvements()) {
-            plot_health_improvements(health_improvements())
-        }
+        plot_health_improvements(health_improvements())
     })
     
     output$prostateMammogramPlot <- renderPlot({
-        if (show_screening()) {
-            plot_prostate_mammogram(screening())
-        }
+        plot_prostate_mammogram(screening())
     })
 })

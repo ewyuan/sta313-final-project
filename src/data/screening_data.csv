@@ -1,25 +1,49 @@
-﻿province,has_phcp,mammogram_screening,psa_blood_test
-Alberta,0,0.6443607,0.2781893
-Alberta,1,0.8381179,0.599279
-British Columbia,0,0.6346974,0.2820762
-British Columbia,1,0.8357957,0.6017822
-Manitoba,0,0.6356413,0.282741
-Manitoba,1,0.8356873,0.6028591
-New Brunswick,0,0.602777,0.2871896
-New Brunswick,1,0.8324969,0.6065697
-Newfoundland and Labrador,0,0.6371883,0.2833349
-Newfoundland and Labrador,1,0.8348066,0.6052324
-Northern Canada,0,0.6485632,0.276994
-Northern Canada,1,0.8400479,0.598439
-Nova Scotia,0,0.6296166,0.2860546
-Nova Scotia,1,0.8335767,0.6051345
-Ontario,0,0.620217,0.2923693
-Ontario,1,0.8354454,0.601712
-Prince Edward Island,0,0.6335793,0.2840525
-Prince Edward Island,1,0.8335559,0.6055734
-Quebec,0,0.6353222,0.2856131
-Quebec,1,0.8342547,0.6049181
-Saskatchewan,0,0.6390465,0.2819584
-Saskatchewan,1,0.8364315,0.6015238
-Canada,0,0.632819045,0.283688445
-Canada,1,0.835474227,0.603002109
+﻿province,has_phcp,proportion,type
+Alberta,0,0.6443607,mammogram
+Alberta,1,0.8381179,mammogram
+British Columbia,0,0.6346974,mammogram
+British Columbia,1,0.8357957,mammogram
+Manitoba,0,0.6356413,mammogram
+Manitoba,1,0.8356873,mammogram
+New Brunswick,0,0.602777,mammogram
+New Brunswick,1,0.8324969,mammogram
+Newfoundland and Labrador,0,0.6371883,mammogram
+Newfoundland and Labrador,1,0.8348066,mammogram
+Northern Canada,0,0.6485632,mammogram
+Northern Canada,1,0.8400479,mammogram
+Nova Scotia,0,0.6296166,mammogram
+Nova Scotia,1,0.8335767,mammogram
+Ontario,0,0.620217,mammogram
+Ontario,1,0.8354454,mammogram
+Prince Edward Island,0,0.6335793,mammogram
+Prince Edward Island,1,0.8335559,mammogram
+Quebec,0,0.6353222,mammogram
+Quebec,1,0.8342547,mammogram
+Saskatchewan,0,0.6390465,mammogram
+Saskatchewan,1,0.8364315,mammogram
+Canada,0,0.632819045,mammogram
+Canada,1,0.835474227,mammogram
+Alberta,0,0.2781893,psa_test
+Alberta,1,0.599279,psa_test
+British Columbia,0,0.2820762,psa_test
+British Columbia,1,0.6017822,psa_test
+Manitoba,0,0.282741,psa_test
+Manitoba,1,0.6028591,psa_test
+New Brunswick,0,0.2871896,psa_test
+New Brunswick,1,0.6065697,psa_test
+Newfoundland and Labrador,0,0.2833349,psa_test
+Newfoundland and Labrador,1,0.6052324,psa_test
+Northern Canada,0,0.276994,psa_test
+Northern Canada,1,0.598439,psa_test
+Nova Scotia,0,0.2860546,psa_test
+Nova Scotia,1,0.6051345,psa_test
+Ontario,0,0.2923693,psa_test
+Ontario,1,0.601712,psa_test
+Prince Edward Island,0,0.2840525,psa_test
+Prince Edward Island,1,0.6055734,psa_test
+Quebec,0,0.2856131,psa_test
+Quebec,1,0.6049181,psa_test
+Saskatchewan,0,0.2819584,psa_test
+Saskatchewan,1,0.6015238,psa_test
+Canada,0,0.283688445,psa_test
+Canada,1,0.603002109,psa_test

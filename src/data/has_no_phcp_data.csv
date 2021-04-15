@@ -1,6 +1,6 @@
 province,age,sex,estimation
-Alberta,>=80,Female,0.037587288
-Alberta,>=80,Male,0.06662301
+Alberta,80<=,Female,0.037587288
+Alberta,80<=,Male,0.06662301
 Alberta,18-19,Female,0.171206301
 Alberta,18-19,Male,0.284330429
 Alberta,20-24,Female,0.204658729
@@ -27,8 +27,8 @@ Alberta,70-74,Female,0.044138538
 Alberta,70-74,Male,0.079168517
 Alberta,75-79,Female,0.041633815
 Alberta,75-79,Male,0.072770568
-British Columbia,>=80,Female,0.04490211
-British Columbia,>=80,Male,0.080108745
+British Columbia,80<=,Female,0.04490211
+British Columbia,80<=,Male,0.080108745
 British Columbia,18-19,Female,0.21009294
 British Columbia,18-19,Male,0.337538464
 British Columbia,20-24,Female,0.247083495
@@ -55,8 +55,8 @@ British Columbia,70-74,Female,0.053983764
 British Columbia,70-74,Male,0.09536537
 British Columbia,75-79,Female,0.048955755
 British Columbia,75-79,Male,0.086533302
-Manitoba,>=80,Female,0.04426617
-Manitoba,>=80,Male,0.076930904
+Manitoba,80<=,Female,0.04426617
+Manitoba,80<=,Male,0.076930904
 Manitoba,18-19,Female,0.195167403
 Manitoba,18-19,Male,0.318666198
 Manitoba,20-24,Female,0.233598945
@@ -83,8 +83,8 @@ Manitoba,70-74,Female,0.05183393
 Manitoba,70-74,Male,0.093507978
 Manitoba,75-79,Female,0.049752753
 Manitoba,75-79,Male,0.085043759
-New Brunswick,>=80,Female,0.019925148
-New Brunswick,>=80,Male,0.036539429
+New Brunswick,80<=,Female,0.019925148
+New Brunswick,80<=,Male,0.036539429
 New Brunswick,18-19,Female,0.096454526
 New Brunswick,18-19,Male,0.169829095
 New Brunswick,20-24,Female,0.122841919
@@ -111,8 +111,8 @@ New Brunswick,70-74,Female,0.025022187
 New Brunswick,70-74,Male,0.045951147
 New Brunswick,75-79,Female,0.022735754
 New Brunswick,75-79,Male,0.04163114
-Newfoundland and Labrador,>=80,Female,0.048177927
-Newfoundland and Labrador,>=80,Male,0.086529004
+Newfoundland and Labrador,80<=,Female,0.048177927
+Newfoundland and Labrador,80<=,Male,0.086529004
 Newfoundland and Labrador,18-19,Female,0.198788991
 Newfoundland and Labrador,18-19,Male,0.32687907
 Newfoundland and Labrador,20-24,Female,0.247658374
@@ -139,8 +139,8 @@ Newfoundland and Labrador,70-74,Female,0.06140208
 Newfoundland and Labrador,70-74,Male,0.106943508
 Newfoundland and Labrador,75-79,Female,0.056023185
 Newfoundland and Labrador,75-79,Male,0.100285146
-Northern Canada,>=80,Female,0.168580054
-Northern Canada,>=80,Male,0.289875555
+Northern Canada,80<=,Female,0.168580054
+Northern Canada,80<=,Male,0.289875555
 Northern Canada,18-19,Female,0.566142078
 Northern Canada,18-19,Male,0.722052005
 Northern Canada,20-24,Female,0.615979727
@@ -167,8 +167,8 @@ Northern Canada,70-74,Female,0.235790876
 Northern Canada,70-74,Male,0.344266568
 Northern Canada,75-79,Female,0.21501452
 Northern Canada,75-79,Male,0.345797736
-Nova Scotia,>=80,Female,0.033053849
-Nova Scotia,>=80,Male,0.059288072
+Nova Scotia,80<=,Female,0.033053849
+Nova Scotia,80<=,Male,0.059288072
 Nova Scotia,18-19,Female,0.149728053
 Nova Scotia,18-19,Male,0.26457203
 Nova Scotia,20-24,Female,0.190145997
@@ -195,8 +195,8 @@ Nova Scotia,70-74,Female,0.040264176
 Nova Scotia,70-74,Male,0.072157435
 Nova Scotia,75-79,Female,0.037193164
 Nova Scotia,75-79,Male,0.065758574
-Ontario,>=80,Female,0.022185335
-Ontario,>=80,Male,0.039831831
+Ontario,80<=,Female,0.022185335
+Ontario,80<=,Male,0.039831831
 Ontario,18-19,Female,0.111303052
 Ontario,18-19,Male,0.198479329
 Ontario,20-24,Female,0.135503828
@@ -223,8 +223,8 @@ Ontario,70-74,Female,0.026483078
 Ontario,70-74,Male,0.048369324
 Ontario,75-79,Female,0.024108952
 Ontario,75-79,Male,0.043827194
-Prince Edward Island,>=80,Female,0.042792731
-Prince Edward Island,>=80,Male,0.076672228
+Prince Edward Island,80<=,Female,0.042792731
+Prince Edward Island,80<=,Male,0.076672228
 Prince Edward Island,18-19,Female,0.176582195
 Prince Edward Island,18-19,Male,0.31649168
 Prince Edward Island,20-24,Female,0.239164329
@@ -251,8 +251,8 @@ Prince Edward Island,70-74,Female,0.052512378
 Prince Edward Island,70-74,Male,0.100182217
 Prince Edward Island,75-79,Female,0.05181138
 Prince Edward Island,75-79,Male,0.091538742
-Quebec,>=80,Female,0.051988893
-Quebec,>=80,Male,0.090908136
+Quebec,80<=,Female,0.051988893
+Quebec,80<=,Male,0.090908136
 Quebec,18-19,Female,0.21933308
 Quebec,18-19,Male,0.351958222
 Quebec,20-24,Female,0.263187422
@@ -279,8 +279,8 @@ Quebec,70-74,Female,0.062854521
 Quebec,70-74,Male,0.111057108
 Quebec,75-79,Female,0.057427846
 Quebec,75-79,Male,0.10168267
-Saskatchewan,>=80,Female,0.052276152
-Saskatchewan,>=80,Male,0.092444827
+Saskatchewan,80<=,Female,0.052276152
+Saskatchewan,80<=,Male,0.092444827
 Saskatchewan,18-19,Female,0.220993275
 Saskatchewan,18-19,Male,0.358348062
 Saskatchewan,20-24,Female,0.262883577
@@ -307,8 +307,8 @@ Saskatchewan,70-74,Female,0.062035364
 Saskatchewan,70-74,Male,0.108965113
 Saskatchewan,75-79,Female,0.056855413
 Saskatchewan,75-79,Male,0.100154908
-Canada,>=80,Female,0.051430514
-Canada,>=80,Male,0.090522886
+Canada,80<=,Female,0.051430514
+Canada,80<=,Male,0.090522886
 Canada,18-19,Female,0.210526536
 Canada,18-19,Male,0.331740417
 Canada,20-24,Female,0.251155122

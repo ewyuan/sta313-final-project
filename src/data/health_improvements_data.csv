@@ -1,145 +1,25 @@
-﻿province,has_phcp,proportion,type
-Alberta,0,0.726615,exercise
-Alberta,1,0.7405801,exercise
-British Columbia,0,0.70917,exercise
-British Columbia,1,0.7362149,exercise
-Manitoba,0,0.7096844,exercise
-Manitoba,1,0.7375074,exercise
-New Brunswick,0,0.675224,exercise
-New Brunswick,1,0.7271667,exercise
-Newfoundland and Labrador,0,0.711162,exercise
-Newfoundland and Labrador,1,0.7317683,exercise
-Northern Canada,0,0.7292416,exercise
-Northern Canada,1,0.8135317,exercise
-Nova Scotia,0,0.7078522,exercise
-Nova Scotia,1,0.7293413,exercise
-Ontario,0,0.6817936,exercise
-Ontario,1,0.7350763,exercise
-Prince Edward Island,0,0.7042051,exercise
-Prince Edward Island,1,0.7332145,exercise
-Quebec,0,0.710677,exercise
-Quebec,1,0.7300499,exercise
-Saskatchewan,0,0.7188842,exercise
-Saskatchewan,1,0.7398568,exercise
-Canada,0,0.707682645,exercise
-Canada,1,0.741300718,exercise
-Alberta,0,0.0743943,lose_weight
-Alberta,1,0.13467587,lose_weight
-British Columbia,0,0.08106963,lose_weight
-British Columbia,1,0.13857188,lose_weight
-Manitoba,0,0.07953294,lose_weight
-Manitoba,1,0.13641404,lose_weight
-New Brunswick,0,0.0680724,lose_weight
-New Brunswick,1,0.13170927,lose_weight
-Newfoundland and Labrador,0,0.08017106,lose_weight
-Newfoundland and Labrador,1,0.1397617,lose_weight
-Northern Canada,0,0.10302429,lose_weight
-Northern Canada,1,0.10459405,lose_weight
-Nova Scotia,0,0.07476925,lose_weight
-Nova Scotia,1,0.13696598,lose_weight
-Ontario,0,0.07035875,lose_weight
-Ontario,1,0.12906554,lose_weight
-Prince Edward Island,0,0.07904761,lose_weight
-Prince Edward Island,1,0.13775717,lose_weight
-Quebec,0,0.08543785,lose_weight
-Quebec,1,0.14138644,lose_weight
-Saskatchewan,0,0.08308538,lose_weight
-Saskatchewan,1,0.1365526,lose_weight
-Canada,0,0.079905769,lose_weight
-Canada,1,0.133404958,lose_weight
-Alberta,0,0.311068,change_diet
-Alberta,1,0.2738425,change_diet
-British Columbia,0,0.3009149,change_diet
-British Columbia,1,0.2551113,change_diet
-Manitoba,0,0.3020774,change_diet
-Manitoba,1,0.258615,change_diet
-New Brunswick,0,0.2975648,change_diet
-New Brunswick,1,0.2619472,change_diet
-Newfoundland and Labrador,0,0.3018329,change_diet
-Newfoundland and Labrador,1,0.2505342,change_diet
-Northern Canada,0,0.2695514,change_diet
-Northern Canada,1,0.1334507,change_diet
-Nova Scotia,0,0.3081361,change_diet
-Nova Scotia,1,0.2541884,change_diet
-Ontario,0,0.3003751,change_diet
-Ontario,1,0.2737132,change_diet
-Prince Edward Island,0,0.3000628,change_diet
-Prince Edward Island,1,0.2449057,change_diet
-Quebec,0,0.2950311,change_diet
-Quebec,1,0.2506335,change_diet
-Saskatchewan,0,0.3007556,change_diet
-Saskatchewan,1,0.2531032,change_diet
-Canada,0,0.298851827,change_diet
-Canada,1,0.246367718,change_diet
-Alberta,0,0.111286645,quit_reduce_smoking
-Alberta,1,0.052215012,quit_reduce_smoking
-British Columbia,0,0.119866811,quit_reduce_smoking
-British Columbia,1,0.049910851,quit_reduce_smoking
-Manitoba,0,0.120671218,quit_reduce_smoking
-Manitoba,1,0.050226012,quit_reduce_smoking
-New Brunswick,0,0.152628106,quit_reduce_smoking
-New Brunswick,1,0.058496271,quit_reduce_smoking
-Newfoundland and Labrador,0,0.116267907,quit_reduce_smoking
-Newfoundland and Labrador,1,0.051237631,quit_reduce_smoking
-Northern Canada,0,0.084995356,quit_reduce_smoking
-Northern Canada,1,0.005457813,quit_reduce_smoking
-Nova Scotia,0,0.122225147,quit_reduce_smoking
-Nova Scotia,1,0.054408396,quit_reduce_smoking
-Ontario,0,0.15333795,quit_reduce_smoking
-Ontario,1,0.056219352,quit_reduce_smoking
-Prince Edward Island,0,0.121649282,quit_reduce_smoking
-Prince Edward Island,1,0.049797635,quit_reduce_smoking
-Quebec,0,0.122270917,quit_reduce_smoking
-Quebec,1,0.050420031,quit_reduce_smoking
-Saskatchewan,0,0.116100872,quit_reduce_smoking
-Saskatchewan,1,0.046601934,quit_reduce_smoking
-Canada,0,0.121936383,quit_reduce_smoking
-Canada,1,0.047726449,quit_reduce_smoking
-Alberta,0,0.06025957,reduce_stress
-Alberta,1,0.04423119,reduce_stress
-British Columbia,0,0.0632525,reduce_stress
-British Columbia,1,0.04061924,reduce_stress
-Manitoba,0,0.06285774,reduce_stress
-Manitoba,1,0.04193366,reduce_stress
-New Brunswick,0,0.06507851,reduce_stress
-New Brunswick,1,0.04329625,reduce_stress
-Newfoundland and Labrador,0,0.06217076,reduce_stress
-Newfoundland and Labrador,1,0.03970978,reduce_stress
-Northern Canada,0,0.05320569,reduce_stress
-Northern Canada,1,0.0167506,reduce_stress
-Nova Scotia,0,0.06226317,reduce_stress
-Nova Scotia,1,0.04161766,reduce_stress
-Ontario,0,0.06428318,reduce_stress
-Ontario,1,0.0445196,reduce_stress
-Prince Edward Island,0,0.06231052,reduce_stress
-Prince Edward Island,1,0.03996077,reduce_stress
-Quebec,0,0.06095892,reduce_stress
-Quebec,1,0.0408518,reduce_stress
-Saskatchewan,0,0.06025267,reduce_stress
-Saskatchewan,1,0.04074014,reduce_stress
-Canada,0,0.061535748,reduce_stress
-Canada,1,0.039475517,reduce_stress
-Alberta,0,0.02239534,receive_medical_treatment
-Alberta,1,0.03388149,receive_medical_treatment
-British Columbia,0,0.02753132,receive_medical_treatment
-British Columbia,1,0.03692359,receive_medical_treatment
-Manitoba,0,0.02745964,receive_medical_treatment
-Manitoba,1,0.03659679,receive_medical_treatment
-New Brunswick,0,0.03181764,receive_medical_treatment
-New Brunswick,1,0.03872049,receive_medical_treatment
-Newfoundland and Labrador,0,0.0267993,receive_medical_treatment
-Newfoundland and Labrador,1,0.03824586,receive_medical_treatment
-Northern Canada,0,0.02643079,receive_medical_treatment
-Northern Canada,1,0.03633423,receive_medical_treatment
-Nova Scotia,0,0.02661761,receive_medical_treatment
-Nova Scotia,1,0.03900901,receive_medical_treatment
-Ontario,0,0.03112337,receive_medical_treatment
-Ontario,1,0.03551139,receive_medical_treatment
-Prince Edward Island,0,0.02847998,receive_medical_treatment
-Prince Edward Island,1,0.03924378,receive_medical_treatment
-Quebec,0,0.02747045,receive_medical_treatment
-Quebec,1,0.03906779,receive_medical_treatment
-Saskatchewan,0,0.02557507,receive_medical_treatment
-Saskatchewan,1,0.03679303,receive_medical_treatment
-Canada,0,0.027427319,receive_medical_treatment
-Canada,1,0.037302495,receive_medical_treatment
+﻿province,has_phcp,exercise,lose_weight,change_diet,quit_reduce_smoking,reduce_stress,receive_medical_treatment
+Alberta,0,0.726615,0.0743943,0.311068,0.111286645,0.06025957,0.02239534
+Alberta,1,0.7405801,0.13467587,0.2738425,0.052215012,0.04423119,0.03388149
+British Columbia,0,0.70917,0.08106963,0.3009149,0.119866811,0.0632525,0.02753132
+British Columbia,1,0.7362149,0.13857188,0.2551113,0.049910851,0.04061924,0.03692359
+Manitoba,0,0.7096844,0.07953294,0.3020774,0.120671218,0.06285774,0.02745964
+Manitoba,1,0.7375074,0.13641404,0.258615,0.050226012,0.04193366,0.03659679
+New Brunswick,0,0.675224,0.0680724,0.2975648,0.152628106,0.06507851,0.03181764
+New Brunswick,1,0.7271667,0.13170927,0.2619472,0.058496271,0.04329625,0.03872049
+Newfoundland and Labrador,0,0.711162,0.08017106,0.3018329,0.116267907,0.06217076,0.0267993
+Newfoundland and Labrador,1,0.7317683,0.1397617,0.2505342,0.051237631,0.03970978,0.03824586
+Northern Canada,0,0.7292416,0.10302429,0.2695514,0.084995356,0.05320569,0.02643079
+Northern Canada,1,0.8135317,0.10459405,0.1334507,0.005457813,0.0167506,0.03633423
+Nova Scotia,0,0.7078522,0.07476925,0.3081361,0.122225147,0.06226317,0.02661761
+Nova Scotia,1,0.7293413,0.13696598,0.2541884,0.054408396,0.04161766,0.03900901
+Ontario,0,0.6817936,0.07035875,0.3003751,0.15333795,0.06428318,0.03112337
+Ontario,1,0.7350763,0.12906554,0.2737132,0.056219352,0.0445196,0.03551139
+Prince Edward Island,0,0.7042051,0.07904761,0.3000628,0.121649282,0.06231052,0.02847998
+Prince Edward Island,1,0.7332145,0.13775717,0.2449057,0.049797635,0.03996077,0.03924378
+Quebec,0,0.710677,0.08543785,0.2950311,0.122270917,0.06095892,0.02747045
+Quebec,1,0.7300499,0.14138644,0.2506335,0.050420031,0.0408518,0.03906779
+Saskatchewan,0,0.7188842,0.08308538,0.3007556,0.116100872,0.06025267,0.02557507
+Saskatchewan,1,0.7398568,0.1365526,0.2531032,0.046601934,0.04074014,0.03679303
+Canada,0,0.707682645,0.079905769,0.298851827,0.121936383,0.061535748,0.027427319
+Canada,1,0.741300718,0.133404958,0.246367718,0.047726449,0.039475517,0.037302495

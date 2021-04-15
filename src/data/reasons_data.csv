@@ -1,12 +1,45 @@
-﻿province,did_not_need,no_phc_available,phc_left_or_retired,other_reasons
-Newfoundland and Labrador,47.4,40,30.2,5.8
-Prince Edward Island,38.4,38.4,25.7,12.8
-Nova Scotia,23.9,45.8,41.3,15.5
-New Brunswick,31.4,43.9,25.3,15.2
-Quebec,44.6,34.8,23.2,16.2
-Ontario,46.8,24.1,25.4,22
-Manitoba,61.7,12.7,24.5,19.8
-Saskatchewan,67.8,12.3,26.4,16.7
-Alberta,65.9,12.7,18.2,18.9
-British Columbia,46.8,36.5,19.6,14.1
-Canada,47.47,30.12,25.99,15.7
+province,proportion,type
+Newfoundland and Labrador,0.474,not_need_PHC
+Prince Edward Island,0.384,not_need_PHC
+Nova Scotia,0.239,not_need_PHC
+New Brunswick,0.314,not_need_PHC
+Quebec,0.446,not_need_PHC
+Ontario,0.468,not_need_PHC
+Manitoba,0.617,not_need_PHC
+Saskatchewan,0.678,not_need_PHC
+Alberta,0.659,not_need_PHC
+British Columbia,0.468,not_need_PHC
+Canada,0.4747,not_need_PHC
+Newfoundland and Labrador,0.4,no_PMH_area
+Prince Edward Island,0.384,no_PMH_area
+Nova Scotia,0.458,no_PMH_area
+New Brunswick,0.439,no_PMH_area
+Quebec,0.348,no_PMH_area
+Ontario,0.241,no_PMH_area
+Manitoba,0.127,no_PMH_area
+Saskatchewan,0.123,no_PMH_area
+Alberta,0.127,no_PMH_area
+British Columbia,0.365,no_PMH_area
+Canada,0.3012,no_PMH_area
+Newfoundland and Labrador,0.302,left_retired
+Prince Edward Island,0.257,left_retired
+Nova Scotia,0.413,left_retired
+New Brunswick,0.253,left_retired
+Quebec,0.232,left_retired
+Ontario,0.254,left_retired
+Manitoba,0.245,left_retired
+Saskatchewan,0.264,left_retired
+Alberta,0.182,left_retired
+British Columbia,0.196,left_retired
+Canada,0.2599,left_retired
+Newfoundland and Labrador,0.058,other
+Prince Edward Island,0.128,other
+Nova Scotia,0.155,other
+New Brunswick,0.152,other
+Quebec,0.162,other
+Ontario,0.22,other
+Manitoba,0.198,other
+Saskatchewan,0.167,other
+Alberta,0.189,other
+British Columbia,0.141,other
+Canada,0.157,other
